@@ -1,0 +1,127 @@
+{
+  "source": "github-trending",
+  "skill": "github-trending",
+  "collected_at": "2026-07-22T00:00:00Z",
+  "items": [
+    {
+      "name": "langgenius/dify",
+      "url": "https://github.com/langgenius/dify",
+      "summary": "Dify 是开源 LLM 应用开发平台，内置 RAG 引擎与可视化 Agent 工作流编排，支持 100+ 模型接入与云/私有化部署，15 万 Star 验证了其作为 LLM 应用平台赛道第一的地位。",
+      "stars": 149697,
+      "language": "TypeScript",
+      "topics": ["agent", "ai", "llm", "rag", "workflow", "mcp", "low-code", "python"]
+    },
+    {
+      "name": "bytedance/deer-flow",
+      "url": "https://github.com/bytedance/deer-flow",
+      "summary": "字节跳动开源的 SuperAgent 框架，支持沙箱、记忆、工具、子代理和消息网关，可处理分钟到小时级的长链任务，7.7 万 Star 展现企业级 Agent 框架的强劲需求。",
+      "stars": 77554,
+      "language": "Python",
+      "topics": ["agent", "ai", "llm", "multi-agent", "langgraph", "langchain", "deep-research"]
+    },
+    {
+      "name": "hiyouga/LlamaFactory",
+      "url": "https://github.com/hiyouga/LlamaFactory",
+      "summary": "统一高效的 LLM/VLM 微调框架，支持 100+ 模型的一站式微调（LoRA/QLoRA/RLHF），ACL 2024 录用论文，7.3 万 Star 是微调工具链的事实标准。",
+      "stars": 73432,
+      "language": "Python",
+      "topics": ["agent", "ai", "llm", "fine-tuning", "lora", "rlhf", "peft"]
+    },
+    {
+      "name": "headroomlabs-ai/headroom",
+      "url": "https://github.com/headroomlabs-ai/headroom",
+      "summary": "Headroom 压缩工具输出、日志和 RAG 片段后再送入 LLM，为 coding agent 节省 20% token，JSON 场景可压缩 60-95%，6 万 Star 说明了 token 优化的刚需。",
+      "stars": 61039,
+      "language": "Python",
+      "topics": ["agent", "ai", "llm", "compression", "rag", "mcp", "token-optimization", "context-engineering"]
+    },
+    {
+      "name": "jeecgboot/JeecgBoot",
+      "url": "https://github.com/jeecgboot/JeecgBoot",
+      "summary": "AI 低代码平台，通过 AI Skills 一句话生成整个系统，内置 AI 聊天、知识库、流程编排和 MCP 插件，4.7 万 Star 代表 AI + 低代码融合的企业级方向。",
+      "stars": 47144,
+      "language": "Java",
+      "topics": ["agent", "ai", "llm", "low-code", "mcp", "rag", "langchain4j", "skills"]
+    },
+    {
+      "name": "AstrBotDevs/AstrBot",
+      "url": "https://github.com/AstrBotDevs/AstrBot",
+      "summary": "AstrBot 是多 IM 平台集成的 AI Agent 助手机器人框架，支持 QQ/Telegram/Discord 等渠道，插件生态丰富，可作为 OpenClaw 替代方案部署。",
+      "stars": 37528,
+      "language": "Python",
+      "topics": ["agent", "ai", "llm", "chatbot", "mcp", "python", "discord", "telegram"]
+    },
+    {
+      "name": "CopilotKit/CopilotKit",
+      "url": "https://github.com/CopilotKit/CopilotKit",
+      "summary": "面向 Agent 与生成式 UI 的前端框架，支持 React/Angular/Mobile/Slack，提出 AG-UI 协议标准化 Agent 前端交互，3.6 万 Star 定义了 Agent UI 赛道。",
+      "stars": 36200,
+      "language": "TypeScript",
+      "topics": ["agent", "ai", "llm", "generative-ui", "react", "copilot", "typescript"]
+    },
+    {
+      "name": "khoj-ai/khoj",
+      "url": "https://github.com/khoj-ai/khoj",
+      "summary": "Khoj 是自托管的 AI 第二大脑，可从文档和网络中检索答案，支持 Obsidian/Emacs 集成和离线 LLM，3.5 万 Star 代表着个人知识管理 + AI 的持续热度。",
+      "stars": 35920,
+      "language": "Python",
+      "topics": ["agent", "ai", "llm", "rag", "self-hosted", "semantic-search", "obsidian", "productivity"]
+    },
+    {
+      "name": "deepset-ai/haystack",
+      "url": "https://github.com/deepset-ai/haystack",
+      "summary": "Haystack 是开源 AI 编排框架，用于构建上下文工程化、生产就绪的 LLM 应用，提供完整的 RAG/Agent/检索管线，2.5 万 Star 使其成为企业级 NLP 管线的事实选择。",
+      "stars": 25976,
+      "language": "Python",
+      "topics": ["agent", "ai", "llm", "rag", "nlp", "orchestration", "python", "generative-ai"]
+    },
+    {
+      "name": "google/adk-python",
+      "url": "https://github.com/google/adk-python",
+      "summary": "Google 官方的代码优先 Python Agent 开发工具包，支持构建、评估和部署多 Agent 系统，2 万 Star 体现了大厂在 Agent SDK 标准化上的布局。",
+      "stars": 20833,
+      "language": "Python",
+      "topics": ["agent", "ai", "llm", "multi-agent", "genai", "python", "agents-sdk"]
+    },
+    {
+      "name": "SWE-agent/SWE-agent",
+      "url": "https://github.com/SWE-agent/SWE-agent",
+      "summary": "SWE-agent 自动读取 GitHub Issue 并用 LLM 修复代码，将 Agent 能力应用于软件工程自动化，近 2 万 Star 验证了 AI 编程 Agent 赛道的持续火热。",
+      "stars": 19881,
+      "language": "Python",
+      "topics": ["agent", "ai", "llm", "developer-tools", "cybersecurity"]
+    },
+    {
+      "name": "Tencent/WeKnora",
+      "url": "https://github.com/Tencent/WeKnora",
+      "summary": "腾讯开源的企业级 LLM 知识平台，将原始文档转化为可查询的 RAG 知识库，支持多租户和多模型，Go 语言实现，在 RAG 工程化方向有代表性。",
+      "stars": 18692,
+      "language": "Go",
+      "topics": ["agent", "ai", "llm", "rag", "knowledge-base", "multi-tenant", "semantic-search", "golang"]
+    },
+    {
+      "name": "googleapis/mcp-toolbox",
+      "url": "https://github.com/googleapis/mcp-toolbox",
+      "summary": "Google 官方的 MCP 数据库工具箱服务器，支持 BigQuery/PostgreSQL/MySQL/MongoDB 等十余种数据库，1.5 万 Star 表明 MCP 协议已成为 Agent 工具集成的标准方式。",
+      "stars": 15993,
+      "language": "Go",
+      "topics": ["agent", "ai", "llm", "mcp", "database", "genai", "server"]
+    },
+    {
+      "name": "MemoriLabs/Memori",
+      "url": "https://github.com/MemoriLabs/Memori",
+      "summary": "Memori 是 Agent 原生记忆基础设施，将 Agent 执行和对话转为结构化持久状态，LLM 无关的架构使其可嵌入任何 Agent 框架，代表了 Agent 记忆层的独立化趋势。",
+      "stars": 15641,
+      "language": "Python",
+      "topics": ["agent", "ai", "llm", "memory", "rag", "state-management", "long-short-term-memory"]
+    },
+    {
+      "name": "botpress/botpress",
+      "url": "https://github.com/botpress/botpress",
+      "summary": "Botpress 是开源的 GPT/LLM Agent 构建与部署平台，提供可视化对话流设计和多渠道发布，在 chatbot 平台领域有长期积累和社区基础。",
+      "stars": 14809,
+      "language": "TypeScript",
+      "topics": ["agent", "ai", "llm", "chatbot", "langchain", "nlp", "gpt"]
+    }
+  ]
+}

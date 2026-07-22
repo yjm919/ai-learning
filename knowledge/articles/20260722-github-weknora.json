@@ -1,0 +1,20 @@
+{
+  "id": "20260722-github-weknora",
+  "title": "WeKnora",
+  "source": "github",
+  "source_url": "https://github.com/Tencent/WeKnora",
+  "summary": "腾讯开源企业级 RAG 知识平台，Go 语言实现，支持多租户多模型。",
+  "summary_en": "Tencent's open-source enterprise RAG knowledge platform in Go with multi-tenant and multi-model support.",
+  "highlights": [
+    "多租户企业级 RAG 知识库",
+    "Go 语言高性能实现",
+    "支持多模型嵌入和向量检索"
+  ],
+  "tags": ["llm", "rag", "agent", "golang", "knowledge-base"],
+  "status": "draft",
+  "score": 6,
+  "metrics": { "stars": 18692 },
+  "fetched_at": "2026-07-22T00:00:00Z",
+  "analyzed_at": "2026-07-22T12:00:00Z",
+  "published_at": null
+}

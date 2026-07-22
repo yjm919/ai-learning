@@ -1,0 +1,22 @@
+{
+  "id": "20260721-github-headroom",
+  "title": "Headroom",
+  "source": "github",
+  "source_url": "https://github.com/headroomlabs-ai/headroom",
+  "summary": "AI Agent 上下文压缩层，在工具输出和文件进入 LLM 前进行智能压缩，JSON 数据 Token 降低 60-95%、编码 Agent 降 15-20%，支持库/代理/MCP 三种集成模式。",
+  "summary_en": "Context compression layer for AI agents that intelligently compresses tool outputs and files before they reach the LLM, achieving 60-95% token reduction for JSON and 15-20% for coding agents.",
+  "highlights": [
+    "JSON 数据压缩 60-95%，编码场景 15-20%",
+    "Rust 实现，支持 MCP/Proxy/Library 多模式",
+    "6 万 Star，Token 成本控制的实用方案"
+  ],
+  "tags": ["llm", "agent", "tool-calling", "rust", "self-hosted"],
+  "status": "published",
+  "score": 8,
+  "metrics": {
+    "stars": 60810
+  },
+  "fetched_at": "2026-07-21T12:00:00Z",
+  "analyzed_at": "2026-07-21T12:30:00Z",
+  "published_at": "2026-07-21T13:00:00Z"
+}

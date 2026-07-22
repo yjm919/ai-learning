@@ -1,0 +1,22 @@
+{
+  "id": "20260721-github-agentgpt",
+  "title": "AgentGPT",
+  "source": "github",
+  "source_url": "https://github.com/reworkd/AgentGPT",
+  "summary": "浏览器中可视化组装、配置与部署自主 AI Agent 的工具，支持定义 Agent 目标并通过多步骤推理链自动完成任务，提供直观的 Web 操作界面。",
+  "summary_en": "Browser-based tool for visually assembling, configuring, and deploying autonomous AI agents, supporting goal definition and automated multi-step reasoning chains via an intuitive web interface.",
+  "highlights": [
+    "浏览器可视化配置自主 Agent",
+    "多步骤推理链自动拆解与执行",
+    "3.6 万 Star，早期 Agent 概念验证标杆"
+  ],
+  "tags": ["agent", "web", "typescript", "open-source"],
+  "status": "published",
+  "score": 5,
+  "metrics": {
+    "stars": 36276
+  },
+  "fetched_at": "2026-07-21T12:00:00Z",
+  "analyzed_at": "2026-07-21T12:30:00Z",
+  "published_at": "2026-07-21T13:00:00Z"
+}

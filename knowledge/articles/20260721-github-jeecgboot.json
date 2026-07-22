@@ -1,0 +1,22 @@
+{
+  "id": "20260721-github-jeecgboot",
+  "title": "JeecgBoot",
+  "source": "github",
+  "source_url": "https://github.com/jeecgboot/JeecgBoot",
+  "summary": "企业级 AI 低代码平台 v2.0，通过 AI Skills 自然语言生成整系统、流程图、表单与报表，内置 AI 应用平台含知识库和流程编排，面向 Java 企业开发场景。",
+  "summary_en": "Enterprise AI low-code platform v2.0 with AI Skills that generate entire systems, workflows, forms, and reports via natural language, featuring a built-in AI application platform with knowledge base and workflow orchestration.",
+  "highlights": [
+    "AI Skills 一句话生成前后端完整系统",
+    "内置 Dify 类 AI 应用平台与知识库",
+    "低代码+零代码双模驱动，Java 全栈"
+  ],
+  "tags": ["low-code", "llm", "rag", "platform", "java"],
+  "status": "published",
+  "score": 6,
+  "metrics": {
+    "stars": 47145
+  },
+  "fetched_at": "2026-07-21T12:00:00Z",
+  "analyzed_at": "2026-07-21T12:30:00Z",
+  "published_at": "2026-07-21T13:00:00Z"
+}

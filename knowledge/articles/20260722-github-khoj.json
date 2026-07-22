@@ -1,0 +1,20 @@
+{
+  "id": "20260722-github-khoj",
+  "title": "Khoj",
+  "source": "github",
+  "source_url": "https://github.com/khoj-ai/khoj",
+  "summary": "自托管 AI 第二大脑，支持 Obsidian/Emacs 集成，可离线运行本地 LLM。",
+  "summary_en": "Self-hosted AI second brain with Obsidian/Emacs integration and offline local LLM support.",
+  "highlights": [
+    "深度集成 Obsidian/Emacs 等知识工具",
+    "支持离线本地 LLM 不依赖云",
+    "36K Star 个人知识管理+AI 头部"
+  ],
+  "tags": ["llm", "rag", "agent", "self-hosted", "productivity"],
+  "status": "draft",
+  "score": 6,
+  "metrics": { "stars": 35920 },
+  "fetched_at": "2026-07-22T00:00:00Z",
+  "analyzed_at": "2026-07-22T12:00:00Z",
+  "published_at": null
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "title": "Dify",
+    "url": "https://github.com/langgenius/dify",
+    "source": "github",
+    "popularity": 149568,
+    "summary": "构建 Agent、RAG 流水线的 AI 应用平台，支持多模型与云部署"
+  },
+  {
+    "title": "Deer Flow",
+    "url": "https://github.com/bytedance/deer-flow",
+    "source": "github",
+    "popularity": 77488,
+    "summary": "字节跳动开源的长周期 SuperAgent 框架，支持研究、编码与创建任务"
+  },
+  {
+    "title": "LLaMA Factory",
+    "url": "https://github.com/hiyouga/LlamaFactory",
+    "source": "github",
+    "popularity": 73408,
+    "summary": "统一高效的 LLM/VLM 微调框架，支持百余种模型"
+  },
+  {
+    "title": "Headroom",
+    "url": "https://github.com/headroomlabs-ai/headroom",
+    "source": "github",
+    "popularity": 60810,
+    "summary": "压缩工具输出与上下文以降低 LLM Token 消耗的代理/MCP 服务"
+  },
+  {
+    "title": "JeecgBoot",
+    "url": "https://github.com/jeecgboot/JeecgBoot",
+    "source": "github",
+    "popularity": 47145,
+    "summary": "AI 低代码平台，通过 Skills 一键生成整系统并内置 AI 应用"
+  },
+  {
+    "title": "AstrBot",
+    "url": "https://github.com/AstrBotDevs/AstrBot",
+    "source": "github",
+    "popularity": 37233,
+    "summary": "集成多 IM 平台与 LLM 的 AI Agent 助手及开发框架"
+  },
+  {
+    "title": "AgentGPT",
+    "url": "https://github.com/reworkd/AgentGPT",
+    "source": "github",
+    "popularity": 36276,
+    "summary": "在浏览器中组装、配置与部署自主 AI Agent 的工具"
+  },
+  {
+    "title": "CopilotKit",
+    "url": "https://github.com/CopilotKit/CopilotKit",
+    "source": "github",
+    "popularity": 36183,
+    "summary": "为 Agent 和生成式 UI 提供的前端框架，支持 React 等多平台"
+  },
+  {
+    "title": "Khoj",
+    "url": "https://github.com/khoj-ai/khoj",
+    "source": "github",
+    "popularity": 35905,
+    "summary": "可自托管的 AI 第二大脑，支持文档问答与自定义 Agent"
+  },
+  {
+    "title": "Haystack",
+    "url": "https://github.com/deepset-ai/haystack",
+    "source": "github",
+    "popularity": 25963,
+    "summary": "开源 AI 编排框架，用于构建生产级 LLM 应用与 Agent 工作流"
+  }
+]

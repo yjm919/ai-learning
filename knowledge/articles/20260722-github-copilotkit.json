@@ -1,0 +1,20 @@
+{
+  "id": "20260722-github-copilotkit",
+  "title": "CopilotKit",
+  "source": "github",
+  "source_url": "https://github.com/CopilotKit/CopilotKit",
+  "summary": "Agent 前端框架，提出 AG-UI 协议标准化 Agent 交互，支持 React/Angular。",
+  "summary_en": "Agent frontend framework introducing the AG-UI protocol for standardizing Agent UI interactions.",
+  "highlights": [
+    "提出 AG-UI 协议定义 Agent 前端标准",
+    "React/Angular/Mobile/Slack 跨平台覆盖",
+    "36K Star 开创 Agent UI 独立赛道"
+  ],
+  "tags": ["agent", "generative-ui", "react", "typescript", "llm"],
+  "status": "draft",
+  "score": 8,
+  "metrics": { "stars": 36200 },
+  "fetched_at": "2026-07-22T00:00:00Z",
+  "analyzed_at": "2026-07-22T12:00:00Z",
+  "published_at": null
+}

@@ -224,3 +224,13 @@ Agent（`.opencode/agents/*.md`）充当自然语言决策层，通过 OpenCode 
 4. **禁止直接调用大模型原始 HTTP API**，必须通过 OpenCode 的统一模型适配层访问，确保模型切换不影响业务代码。
 5. **禁止提交 `knowledge/raw/` 和 `knowledge/articles/` 目录下的数据文件到 Git**，这些目录已在 `.gitignore` 中排除。
 6. **禁止在日志中打印知识条目全文**（title / summary 除外），防止泄密和日志膨胀。错误日志仅记录异常堆栈，不得包含请求体。
+
+## Agent skills
+
+### Issue tracker
+
+Local markdown — issues live in `.scratch/<feature>/issues/<NN>-<slug>.md`. See `docs/agents/issue-tracker.md`.
+
+### Domain docs
+
+Single-context — one `CONTEXT.md` at repo root, `docs/adr/` for decisions. See `docs/agents/domain.md`.

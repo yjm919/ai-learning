@@ -1,0 +1,209 @@
+{
+  "source": "tech-summary",
+  "skill": "tech-summary",
+  "analyzed_at": "2026-07-22T12:00:00Z",
+  "total": 15,
+  "trends": [
+    "MCP 协议成 Agent 工具集成标配，3 个项目以 MCP 为核心集成方式",
+    "大厂加速 Agent 框架开源，Google/字节/腾讯齐推 Agent SDK 与平台",
+    "Agent 记忆层独立化为新赛道，Memori 代表记忆基础设施化趋势",
+    "Token 压缩从优化变成刚需品类，Headroom 6 万 Star 验证新需求"
+  ],
+  "items": [
+    {
+      "name": "langgenius/dify",
+      "url": "https://github.com/langgenius/dify",
+      "summary": "开源 LLM 应用平台赛道第一，可视化编排 RAG 与 Agent 工作流，15 万 Star。",
+      "highlights": [
+        "15 万 Star，LLM 应用平台全球第一",
+        "可视化拖拽编排降低 Agent 开发门槛",
+        "支持 100+ 模型接入与云/私有化双部署"
+      ],
+      "score": 9,
+      "score_reason": "LLM 应用平台赛道标杆，15 万 Star 的社区规模无可匹敌，RAG+Agent+工作流三位一体的产品定义已形成行业范式。",
+      "tags": ["llm", "agent", "rag", "workflow", "self-hosted"]
+    },
+    {
+      "name": "bytedance/deer-flow",
+      "url": "https://github.com/bytedance/deer-flow",
+      "summary": "字节跳动 SuperAgent 框架，集成沙箱/记忆/子代理，处理分钟到小时级长链任务。",
+      "highlights": [
+        "字节开源企业级 SuperAgent 框架",
+        "沙箱+记忆+工具+子代理四模块协同",
+        "77K Star 代表长链 Agent 框架赛道爆发"
+      ],
+      "score": 9,
+      "score_reason": "大厂开源的完整 SuperAgent 框架，将沙箱、记忆、子代理、消息网关系统化整合，定义了长链 Agent 的架构范式。",
+      "tags": ["agent", "multi-agent", "llm", "python", "langgraph"]
+    },
+    {
+      "name": "hiyouga/LlamaFactory",
+      "url": "https://github.com/hiyouga/LlamaFactory",
+      "summary": "统一高效的 LLM/VLM 微调框架，100+ 模型一站式微调，ACL 2024 论文。",
+      "highlights": [
+        "支持 100+ 模型统一微调入口",
+        "ACL 2024 学术顶会录用论文",
+        "LoRA/QLoRA/RLHF 全流程覆盖"
+      ],
+      "score": 8,
+      "score_reason": "LLM 微调工具链的事实标准，学术背书+社区验证，73K Star 证明微调民主化的刚需。",
+      "tags": ["llm", "fine-tuning", "python", "lora", "rlhf"]
+    },
+    {
+      "name": "headroomlabs-ai/headroom",
+      "url": "https://github.com/headroomlabs-ai/headroom",
+      "summary": "Token 压缩工具，为 coding agent 省 20% token，JSON 场景压缩 60-95%。",
+      "highlights": [
+        "JSON/RAG 片段压缩率 60-95%",
+        "library/proxy/MCP server 三种集成模式",
+        "6 万 Star 验证 token 优化刚需"
+      ],
+      "score": 8,
+      "score_reason": "开创了 LLM Token 压缩这一新品类，将隐性成本显性化，直接降低推理费用，效果显著。",
+      "tags": ["llm", "agent", "compression", "mcp", "token-optimization"]
+    },
+    {
+      "name": "jeecgboot/JeecgBoot",
+      "url": "https://github.com/jeecgboot/JeecgBoot",
+      "summary": "Java 生态 AI 低代码平台，Skills 一句话生成系统，内置 RAG 和 MCP。",
+      "highlights": [
+        "AI Skills 一句话生成完整系统",
+        "内置知识库/流程编排/MCP 插件",
+        "47K Star，Java 生态 AI 低代码代表"
+      ],
+      "score": 6,
+      "score_reason": "AI 低代码方向有落地价值，但核心创新在工程提效而非 AI 能力突破，技术壁垒不高。",
+      "tags": ["llm", "low-code", "agent", "mcp", "java"]
+    },
+    {
+      "name": "AstrBotDevs/AstrBot",
+      "url": "https://github.com/AstrBotDevs/AstrBot",
+      "summary": "多 IM 平台 AI Agent 助手框架，支持 QQ/Telegram/Discord，插件生态丰富。",
+      "highlights": [
+        "集成 QQ/Telegram/Discord 等多平台",
+        "插件生态丰富可扩展",
+        "37K Star 可作 OpenClaw 替代方案"
+      ],
+      "score": 6,
+      "score_reason": "实用的多平台 chatbot 框架，但赛道同质化严重，缺乏核心技术差异化。",
+      "tags": ["llm", "agent", "chatbot", "python", "mcp"]
+    },
+    {
+      "name": "CopilotKit/CopilotKit",
+      "url": "https://github.com/CopilotKit/CopilotKit",
+      "summary": "Agent 前端框架，提出 AG-UI 协议标准化 Agent 交互，支持 React/Angular。",
+      "highlights": [
+        "提出 AG-UI 协议定义 Agent 前端标准",
+        "React/Angular/Mobile/Slack 跨平台覆盖",
+        "36K Star 开创 Agent UI 独立赛道"
+      ],
+      "score": 8,
+      "score_reason": "第一个系统化定义 Agent 前端交互协议的项目，AG-UI 有成为行业标准的潜力。",
+      "tags": ["agent", "generative-ui", "react", "typescript", "llm"]
+    },
+    {
+      "name": "khoj-ai/khoj",
+      "url": "https://github.com/khoj-ai/khoj",
+      "summary": "自托管 AI 第二大脑，支持 Obsidian/Emacs 集成，可离线运行本地 LLM。",
+      "highlights": [
+        "深度集成 Obsidian/Emacs 等知识工具",
+        "支持离线本地 LLM 不依赖云",
+        "36K Star 个人知识管理+AI 头部"
+      ],
+      "score": 6,
+      "score_reason": "个人知识管理+AI 的方向有持续需求，但产品形态与竞品趋同，护城河不深。",
+      "tags": ["llm", "rag", "agent", "self-hosted", "productivity"]
+    },
+    {
+      "name": "deepset-ai/haystack",
+      "url": "https://github.com/deepset-ai/haystack",
+      "summary": "开源 AI 编排框架，提供完整 RAG/Agent/检索管线，面向生产级 LLM 应用。",
+      "highlights": [
+        "企业级 RAG/Agent/检索完整管线",
+        "2.6 万 Star NLP 框架赛道领先",
+        "生产就绪的开箱即用方案"
+      ],
+      "score": 7,
+      "score_reason": "成熟的 NLP 编排框架，企业落地价值明确，但 Dify 等竞品在易用性上已追赶甚至超越。",
+      "tags": ["llm", "rag", "agent", "orchestration", "python"]
+    },
+    {
+      "name": "google/adk-python",
+      "url": "https://github.com/google/adk-python",
+      "summary": "Google 官方 Agent SDK，代码优先设计，支持多 Agent 系统构建与评估。",
+      "highlights": [
+        "Google 官方 Python Agent 开发包",
+        "支持多 Agent 系统评估和部署",
+        "20K Star，大厂 Agent SDK 标准化信号"
+      ],
+      "score": 7,
+      "score_reason": "Google 在 Agent 标准化上的关键布局，代码优先设计对开发者友好，行业信号意义大于功能创新。",
+      "tags": ["agent", "multi-agent", "python", "genai", "llm"]
+    },
+    {
+      "name": "SWE-agent/SWE-agent",
+      "url": "https://github.com/SWE-agent/SWE-agent",
+      "summary": "自动读取 GitHub Issue 并调用 LLM 修复代码的 AI 编程 Agent。",
+      "highlights": [
+        "自动读取 Issue 并生成修复 PR",
+        "将 Agent 能力落地于软件工程",
+        "20K Star 验证 AI 编程 Agent 热度"
+      ],
+      "score": 7,
+      "score_reason": "AI 编程自动化方向正确，有明确落地场景，但 coding agent 赛道拥挤，差异化待加强。",
+      "tags": ["agent", "llm", "developer-tools", "python"]
+    },
+    {
+      "name": "Tencent/WeKnora",
+      "url": "https://github.com/Tencent/WeKnora",
+      "summary": "腾讯开源企业级 RAG 知识平台，Go 语言实现，支持多租户多模型。",
+      "highlights": [
+        "多租户企业级 RAG 知识库",
+        "Go 语言高性能实现",
+        "支持多模型嵌入和向量检索"
+      ],
+      "score": 6,
+      "score_reason": "RAG 工程化方案成熟，但赛道拥挤（Dify/RAGFlow 等竞品环伺），差异化不足。",
+      "tags": ["llm", "rag", "agent", "golang", "knowledge-base"]
+    },
+    {
+      "name": "googleapis/mcp-toolbox",
+      "url": "https://github.com/googleapis/mcp-toolbox",
+      "summary": "Google 官方 MCP 数据库服务器，支持 BigQuery/PostgreSQL 等 10+ 数据库。",
+      "highlights": [
+        "支持 BigQuery/PG/MySQL 等 10+ 数据库",
+        "Google 官方 MCP 生态建设举措",
+        "16K Star 推动 MCP 协议标准化"
+      ],
+      "score": 7,
+      "score_reason": "MCP 协议生态的关键基础设施，Google 背书加速协议标准化进程，对 Agent 工具集成生态有推动作用。",
+      "tags": ["llm", "mcp", "agent", "database", "go"]
+    },
+    {
+      "name": "MemoriLabs/Memori",
+      "url": "https://github.com/MemoriLabs/Memori",
+      "summary": "Agent 原生记忆基础设施，LLM 无关架构，将执行对话转为持久结构化状态。",
+      "highlights": [
+        "LLM 无关架构可嵌入任何 Agent 框架",
+        "执行和对话转为结构化持久状态",
+        "开辟 Agent 记忆层独立化新赛道"
+      ],
+      "score": 7,
+      "score_reason": "将 Agent 记忆从框架中解耦为独立基础设施层，架构前瞻性强，代表了 Agent 架构演进的下一阶段。",
+      "tags": ["agent", "llm", "memory", "rag", "state-management"]
+    },
+    {
+      "name": "botpress/botpress",
+      "url": "https://github.com/botpress/botpress",
+      "summary": "开源 GPT/LLM Agent 构建部署平台，可视化对话流设计，多渠道一键发布。",
+      "highlights": [
+        "可视化对话流设计降低开发门槛",
+        "多平台一键发布部署",
+        "chatbot 领域长期积累和社区基础"
+      ],
+      "score": 5,
+      "score_reason": "chatbot 平台赛道极其拥挤，AstrBot/Dify 等已覆盖主要场景，创新空间有限。",
+      "tags": ["llm", "agent", "chatbot", "nlp", "typescript"]
+    }
+  ]
+}
