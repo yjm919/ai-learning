@@ -3,21 +3,21 @@
   "title": "Are AI labs pelicanmaxxing?",
   "source": "rss",
   "source_url": "https://dylancastillo.co/posts/pelicanmaxxing.html",
-  "summary": "这篇文章探讨了AI实验室是否在过度追求“鹈鹕最大化”（pelicanmaxxing），即优先开发更大、更昂贵的模型而非高效实用的AI系统。作者分析了当前AI研究趋势，指出实验室可能因竞争压力而忽视成本效益和可访问性，并呼吁平衡创新与可持续性。",
-  "summary_en": "This article explores whether AI labs are 'pelicanmaxxing'—prioritizing larger, more expensive models over efficient and practical AI systems. The author analyzes current AI research trends, suggesting labs may overlook cost-effectiveness and accessibility due to competitive pressure, and calls for a balance between innovation and sustainability.",
+  "summary": "这篇文章探讨了AI实验室是否在过度优化（pelicanmaxxing）某些指标，而忽视了更广泛的目标。作者通过分析AI实验室的发布策略、模型评估方法以及资源分配，指出当前AI研究可能陷入局部最优的陷阱，类似于“鹈鹕最大化”现象。文章呼吁AI社区关注长期价值、安全性和通用性，而非短期性能指标。",
+  "summary_en": "This article explores whether AI labs are over-optimizing (pelicanmaxxing) certain metrics while neglecting broader goals. By analyzing AI labs' release strategies, model evaluation methods, and resource allocation, the author suggests that current AI research may fall into local optima traps, akin to the 'pelicanmaxxing' phenomenon. The article calls for the AI community to focus on long-term value, safety, and generality rather than short-term performance indicators.",
   "tags": [
     "ai labs",
-    "model scaling",
-    "efficiency",
-    "sustainability",
-    "research trends"
+    "optimization",
+    "research critique",
+    "metrics",
+    "safety"
   ],
   "status": "draft",
   "score": 1,
   "metrics": {
     "stars": 0
   },
-  "fetched_at": "2026-07-23T04:03:02.703704+00:00",
-  "analyzed_at": "2026-07-23T04:04:09.073607+00:00",
+  "fetched_at": "2026-07-23T10:13:10.769117+00:00",
+  "analyzed_at": "2026-07-23T10:14:29.381620+00:00",
   "published_at": null
 }

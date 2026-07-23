@@ -3,21 +3,21 @@
   "title": "Significant-Gravitas/AutoGPT",
   "source": "github",
   "source_url": "https://github.com/Significant-Gravitas/AutoGPT",
-  "summary": "AutoGPT 是一个开源项目，旨在让每个人都能轻松使用和构建 AI 代理。它提供了自主代理框架，支持 GPT、Claude、Llama 等多种 LLM，专注于让用户专注于重要事务，而无需深入底层技术。该项目拥有超过 18.5 万星标，是 AI 代理领域的热门工具。",
-  "summary_en": "AutoGPT is an open-source project that aims to make AI accessible for everyone to use and build upon. It provides an autonomous agent framework supporting various LLMs like GPT, Claude, and Llama, allowing users to focus on what matters without delving into underlying technologies. With over 185k stars, it is a popular tool in the AI agent space.",
+  "summary": "AutoGPT 是一个开源项目，旨在让每个人都能轻松使用和构建 AI 代理。它基于大型语言模型（如 GPT、Claude、Llama 等），支持自主代理行为，用户可以通过 Python 构建复杂的 AI 工作流。该项目拥有超过 18.5 万星标，是 AI 代理领域最具影响力的项目之一。",
+  "summary_en": "AutoGPT is an open-source project that aims to make AI accessible for everyone to use and build upon. It leverages large language models (such as GPT, Claude, Llama) to enable autonomous agent behaviors, allowing users to construct complex AI workflows in Python. With over 185k stars, it is one of the most influential projects in the AI agent space.",
   "tags": [
     "autonomous-agents",
     "llm",
-    "open-source",
+    "agentic-ai",
     "python",
-    "agentic-ai"
+    "open-source"
   ],
   "status": "draft",
   "score": 1,
   "metrics": {
-    "stars": 185647
+    "stars": 185648
   },
-  "fetched_at": "2026-07-23T04:03:02.703704+00:00",
-  "analyzed_at": "2026-07-23T04:03:25.109920+00:00",
+  "fetched_at": "2026-07-23T10:13:10.769117+00:00",
+  "analyzed_at": "2026-07-23T10:13:33.395629+00:00",
   "published_at": null
 }

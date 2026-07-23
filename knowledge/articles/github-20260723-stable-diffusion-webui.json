@@ -3,21 +3,21 @@
   "title": "AUTOMATIC1111/stable-diffusion-webui",
   "source": "github",
   "source_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
-  "summary": "AUTOMATIC1111/stable-diffusion-webui 是一个基于 Gradio 的 Stable Diffusion 网页界面，支持文本生成图像、图像到图像转换、放大等功能，集成了深度学习模型，广泛应用于 AI 艺术创作。",
-  "summary_en": "AUTOMATIC1111/stable-diffusion-webui is a Gradio-based web interface for Stable Diffusion, supporting text-to-image, image-to-image, upscaling, and other features, integrating deep learning models widely used in AI art creation.",
+  "summary": "AUTOMATIC1111/stable-diffusion-webui 是一个基于 Gradio 的 Stable Diffusion 网页界面，支持文本生成图像、图像到图像转换、图像放大等功能。该项目拥有超过 16.4 万星标，是 AI 图像生成领域最流行的开源工具之一，集成了 PyTorch 和深度学习技术，便于用户通过浏览器进行创作。",
+  "summary_en": "AUTOMATIC1111/stable-diffusion-webui is a Gradio-based web interface for Stable Diffusion, supporting text-to-image, image-to-image, upscaling, and more. With over 164k stars, it is one of the most popular open-source tools in AI image generation, integrating PyTorch and deep learning for browser-based creation.",
   "tags": [
     "stable-diffusion",
     "image-generation",
-    "ai-art",
     "deep-learning",
-    "web-ui"
+    "web-ui",
+    "ai-art"
   ],
   "status": "draft",
   "score": 1,
   "metrics": {
-    "stars": 164236
+    "stars": 164234
   },
-  "fetched_at": "2026-07-23T04:03:02.703704+00:00",
-  "analyzed_at": "2026-07-23T04:03:34.336397+00:00",
+  "fetched_at": "2026-07-23T10:13:10.769117+00:00",
+  "analyzed_at": "2026-07-23T10:13:44.075614+00:00",
   "published_at": null
 }

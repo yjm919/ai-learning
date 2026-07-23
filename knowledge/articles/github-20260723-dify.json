@@ -3,22 +3,24 @@
   "title": "langgenius/dify",
   "source": "github",
   "source_url": "https://github.com/langgenius/dify",
-  "summary": "Dify 是一个开源平台，用于构建智能体工作流和 RAG 管道，支持丰富的 AI 模型和工具。它提供低代码/无代码界面，可在云端、VPC 或自托管环境中部署，帮助团队从原型快速过渡到生产。项目拥有近 15 万 Star，涵盖 agent、RAG、MCP 等热门技术。",
-  "summary_en": "Dify is an open-source platform for building agentic workflows and RAG pipelines with rich AI model and tool support. It offers a low-code/no-code interface and can be deployed on cloud, VPC, or self-hosted, enabling teams to move from prototype to production quickly. With nearly 150k stars, it covers hot topics like agent, RAG, and MCP.",
+  "summary": "Dify 是一个开源平台，用于构建基于LLM的Agent工作流和RAG管道。它支持丰富的AI模型和工具，提供低代码/无代码界面，可部署在云、VPC或自托管环境。项目拥有近15万星标，涵盖agent、RAG、工作流编排等核心功能，适合团队快速从原型到生产。",
+  "summary_en": "Dify is an open-source platform for building LLM-based Agent workflows and RAG pipelines. It supports rich AI models and tools, offers a low-code/no-code interface, and can be deployed on cloud, VPC, or self-hosted. With nearly 150k stars, it covers agent, RAG, workflow orchestration, enabling teams to move from prototype to production quickly.",
   "tags": [
     "agent",
     "rag",
-    "low-code",
     "workflow",
+    "low-code",
     "llm",
-    "open-source"
+    "open-source",
+    "python",
+    "nextjs"
   ],
   "status": "draft",
   "score": 1,
   "metrics": {
-    "stars": 149849
+    "stars": 149912
   },
-  "fetched_at": "2026-07-23T04:03:02.703704+00:00",
-  "analyzed_at": "2026-07-23T04:03:49.500904+00:00",
+  "fetched_at": "2026-07-23T10:13:10.769117+00:00",
+  "analyzed_at": "2026-07-23T10:13:59.263324+00:00",
   "published_at": null
 }

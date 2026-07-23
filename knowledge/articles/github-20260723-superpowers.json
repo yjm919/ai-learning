@@ -3,22 +3,21 @@
   "title": "obra/superpowers",
   "source": "github",
   "source_url": "https://github.com/obra/superpowers",
-  "summary": "Obra/superpowers 是一个代理技能框架和软件开发方法，旨在通过子代理驱动开发（Subagent-Driven Development）提升AI编程效率。它提供了结构化的工作流，支持头脑风暴、编码等任务，并集成了SDLC流程。该项目在GitHub上获得极高关注，表明其技术价值与AI相关性很强。",
-  "summary_en": "Obra/superpowers is an agentic skills framework and software development methodology designed to enhance AI coding efficiency through subagent-driven development. It provides structured workflows for tasks like brainstorming and coding, integrating SDLC processes. The project has gained significant attention on GitHub, indicating strong technical value and AI relevance.",
+  "summary": "obra/superpowers 是一个智能体技能框架和软件开发方法论，旨在通过子智能体驱动开发（subagent-driven development）提升开发效率。该项目结合了AI、头脑风暴、编码等主题，提供了一套系统化的技能和流程，帮助开发者更高效地构建软件。其高星数（259763）表明社区认可度极高，具有显著的技术价值和AI相关性。",
+  "summary_en": "obra/superpowers is an agentic skills framework and software development methodology that works, leveraging subagent-driven development to enhance productivity. It integrates AI, brainstorming, coding, and SDLC, offering a systematic approach for efficient software building. With 259763 stars, it shows high community recognition and significant technical value and AI relevance.",
   "tags": [
     "ai",
-    "agent",
-    "framework",
-    "coding",
-    "sdlc",
-    "subagent-driven-development"
+    "agentic-framework",
+    "software-development",
+    "subagent-driven-development",
+    "skills"
   ],
   "status": "draft",
   "score": 1,
   "metrics": {
-    "stars": 259537
+    "stars": 259763
   },
-  "fetched_at": "2026-07-23T04:03:02.703704+00:00",
-  "analyzed_at": "2026-07-23T04:03:07.671323+00:00",
+  "fetched_at": "2026-07-23T10:13:10.769117+00:00",
+  "analyzed_at": "2026-07-23T10:13:16.214381+00:00",
   "published_at": null
 }

@@ -3,21 +3,20 @@
   "title": "Making",
   "source": "rss",
   "source_url": "https://beej.us/blog/data/ai-making/",
-  "summary": "本文探讨了AI在创意和制造过程中的应用，强调AI作为辅助工具而非替代人类创造力的角色。作者通过实例展示了AI如何帮助生成设计、优化流程和激发灵感，同时指出当前AI在理解复杂上下文和保持一致性方面的局限性。文章呼吁平衡技术利用与人类判断，确保AI增强而非削弱人类的创造性贡献。",
-  "summary_en": "This article explores the role of AI in creative and making processes, emphasizing AI as a tool to augment rather than replace human creativity. It illustrates how AI can assist in generating designs, optimizing workflows, and sparking inspiration, while noting current limitations in understanding complex contexts and maintaining consistency. The piece advocates for a balanced approach that leverages technology while preserving human judgment to ensure AI enhances rather than diminishes human creative contributions.",
+  "summary": "本文探讨了AI系统在生成内容时如何通过“制作”（Making）过程来模拟人类创作。作者认为，AI的生成能力不仅仅是复制，而是通过算法组合和调整现有数据来创造新内容。文章强调了AI在艺术、写作和设计中的应用，以及这种“制作”过程对创意产业的潜在影响。",
+  "summary_en": "This article explores how AI systems simulate human creativity through the 'Making' process when generating content. The author argues that AI's generative ability is not merely replication but creating new content by algorithmically combining and adjusting existing data. The article highlights applications in art, writing, and design, and the potential impact of this 'Making' process on creative industries.",
   "tags": [
     "ai",
     "creativity",
-    "making",
-    "design",
-    "human-ai collaboration"
+    "generation",
+    "content-creation"
   ],
   "status": "draft",
   "score": 1,
   "metrics": {
     "stars": 0
   },
-  "fetched_at": "2026-07-23T04:03:02.703704+00:00",
-  "analyzed_at": "2026-07-23T04:04:26.813338+00:00",
+  "fetched_at": "2026-07-23T10:13:10.769117+00:00",
+  "analyzed_at": "2026-07-23T10:14:41.124893+00:00",
   "published_at": null
 }

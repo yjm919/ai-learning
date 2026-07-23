@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-23T04:03:02.690754+00:00",
+  "collected_at": "2026-07-23T10:13:10.751318+00:00",
   "sources": [
     "github",
     "rss"
@@ -10,7 +10,7 @@
       "name": "openclaw/openclaw",
       "url": "https://github.com/openclaw/openclaw",
       "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
-      "stars": 383852,
+      "stars": 383872,
       "language": "TypeScript",
       "topics": [
         "ai",
@@ -26,7 +26,7 @@
       "name": "obra/superpowers",
       "url": "https://github.com/obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
-      "stars": 259537,
+      "stars": 259763,
       "language": "Shell",
       "topics": [
         "ai",
@@ -43,7 +43,7 @@
       "name": "affaan-m/ECC",
       "url": "https://github.com/affaan-m/ECC",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "stars": 232280,
+      "stars": 232366,
       "language": "JavaScript",
       "topics": [
         "ai-agents",
@@ -60,7 +60,7 @@
       "name": "NousResearch/hermes-agent",
       "url": "https://github.com/NousResearch/hermes-agent",
       "description": "The agent that grows with you",
-      "stars": 219041,
+      "stars": 219219,
       "language": "Python",
       "topics": [
         "ai",
@@ -85,7 +85,7 @@
       "name": "n8n-io/n8n",
       "url": "https://github.com/n8n-io/n8n",
       "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-      "stars": 197545,
+      "stars": 197581,
       "language": "TypeScript",
       "topics": [
         "ai",
@@ -114,7 +114,7 @@
       "name": "multica-ai/andrej-karpathy-skills",
       "url": "https://github.com/multica-ai/andrej-karpathy-skills",
       "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
-      "stars": 195462,
+      "stars": 195550,
       "language": "",
       "topics": []
     },
@@ -122,7 +122,7 @@
       "name": "ultraworkers/claw-code",
       "url": "https://github.com/ultraworkers/claw-code",
       "description": "An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human intervention.",
-      "stars": 194857,
+      "stars": 194864,
       "language": "Rust",
       "topics": []
     },
@@ -130,7 +130,7 @@
       "name": "anomalyco/opencode",
       "url": "https://github.com/anomalyco/opencode",
       "description": "The open source coding agent.",
-      "stars": 188732,
+      "stars": 188831,
       "language": "TypeScript",
       "topics": []
     },
@@ -138,7 +138,7 @@
       "name": "Significant-Gravitas/AutoGPT",
       "url": "https://github.com/Significant-Gravitas/AutoGPT",
       "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
-      "stars": 185647,
+      "stars": 185648,
       "language": "Python",
       "topics": [
         "agentic-ai",
@@ -158,7 +158,7 @@
       "name": "mattpocock/skills",
       "url": "https://github.com/mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
-      "stars": 182802,
+      "stars": 183505,
       "language": "Shell",
       "topics": []
     },
@@ -166,7 +166,7 @@
       "name": "ollama/ollama",
       "url": "https://github.com/ollama/ollama",
       "description": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-      "stars": 176673,
+      "stars": 176686,
       "language": "Go",
       "topics": [
         "deepseek",
@@ -190,7 +190,7 @@
       "name": "f/prompts.chat",
       "url": "https://github.com/f/prompts.chat",
       "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
-      "stars": 166224,
+      "stars": 166237,
       "language": "HTML",
       "topics": [
         "ai",
@@ -217,7 +217,7 @@
       "name": "AUTOMATIC1111/stable-diffusion-webui",
       "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
       "description": "Stable Diffusion web UI",
-      "stars": 164236,
+      "stars": 164234,
       "language": "Python",
       "topics": [
         "ai",
@@ -242,7 +242,7 @@
       "name": "anthropics/skills",
       "url": "https://github.com/anthropics/skills",
       "description": "Public repository for Agent Skills",
-      "stars": 163488,
+      "stars": 163579,
       "language": "Python",
       "topics": [
         "agent-skills"
@@ -252,7 +252,7 @@
       "name": "huggingface/transformers",
       "url": "https://github.com/huggingface/transformers",
       "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
-      "stars": 162852,
+      "stars": 162864,
       "language": "Python",
       "topics": [
         "audio",
@@ -280,7 +280,7 @@
       "name": "Snailclimb/JavaGuide",
       "url": "https://github.com/Snailclimb/JavaGuide",
       "description": "Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发",
-      "stars": 157237,
+      "stars": 157243,
       "language": "JavaScript",
       "topics": [
         "agent",
@@ -302,7 +302,7 @@
       "name": "firecrawl/firecrawl",
       "url": "https://github.com/firecrawl/firecrawl",
       "description": "The API to search, scrape, and interact with the web at scale. 🔥",
-      "stars": 154613,
+      "stars": 154766,
       "language": "TypeScript",
       "topics": [
         "ai",
@@ -330,7 +330,7 @@
       "name": "langflow-ai/langflow",
       "url": "https://github.com/langflow-ai/langflow",
       "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
-      "stars": 152234,
+      "stars": 152252,
       "language": "Python",
       "topics": [
         "agents",
@@ -345,7 +345,7 @@
       "name": "langgenius/dify",
       "url": "https://github.com/langgenius/dify",
       "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
-      "stars": 149849,
+      "stars": 149912,
       "language": "TypeScript",
       "topics": [
         "agent",
@@ -374,7 +374,7 @@
       "name": "open-webui/open-webui",
       "url": "https://github.com/open-webui/open-webui",
       "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-      "stars": 146390,
+      "stars": 146427,
       "language": "Python",
       "topics": [
         "ai",
@@ -395,13 +395,33 @@
       ]
     },
     {
+      "name": "Escape IntelliJ: Scala and Kotlin LSPs on Emacs Eglot",
+      "url": "https://jointhefreeworld.org/blog/articles/emacs/emacs-eglot-scala-kotlin/index.html",
+      "description": "Comments]]>"
+    },
+    {
       "name": "Terence Tao&#x27;s ChatGPT conversation about the Jacobian Conjecture counterexample",
       "url": "https://chatgpt.com/share/6a5fdc7a-d6f8-83e8-bbea-8deb42cfed56",
       "description": "Comments]]>"
     },
     {
+      "name": "Cruller: Bun&#x27;s Zig Runtime, Continued on Zig 0.16",
+      "url": "https://ziggit.dev/t/cruller-buns-zig-runtime-continued-on-zig-0-16/16734",
+      "description": "Comments]]>"
+    },
+    {
+      "name": "git&#x27;s –end-of-options Flag",
+      "url": "https://nesbitt.io/2026/07/21/end-of-options.html",
+      "description": "Comments]]>"
+    },
+    {
       "name": "Quality non-fiction books are the antithesis of AI slop",
       "url": "https://resobscura.substack.com/p/quality-non-fiction-books-are-the",
+      "description": "Comments]]>"
+    },
+    {
+      "name": "ANSI escape injection in MCP servers: Hidden from humans, visible to AI",
+      "url": "https://brightsec.com/research/detecting-ansi-escape-sequence-injection-in-mcp-servers-with-dast/",
       "description": "Comments]]>"
     },
     {
@@ -415,11 +435,6 @@
       "description": "Comments]]>"
     },
     {
-      "name": "Medici family mystery may be solved after more than 400 years",
-      "url": "https://www.cnn.com/2026/07/15/science/medici-family-mystery-dna-malaria",
-      "description": "Comments]]>"
-    },
-    {
       "name": "Everyone should know SIMD",
       "url": "https://mitchellh.com/writing/everyone-should-know-simd",
       "description": "Comments]]>"
@@ -430,43 +445,8 @@
       "description": "Comments]]>"
     },
     {
-      "name": "ascdraw: Editor for ASCII&#x2F;UTF-8 diagrams (in 144FPS)",
-      "url": "https://github.com/exlee/ascdraw",
-      "description": "Comments]]>"
-    },
-    {
-      "name": "Show HN: Cactus Hybrid: We taught Gemma 4 to know when it&#x27;s wrong",
-      "url": "https://github.com/cactus-compute/cactus-hybrid",
-      "description": "Comments]]>"
-    },
-    {
-      "name": "Restructuring GitHub&#x27;s bug bounty program",
-      "url": "https://github.blog/security/next-chapter-restructuring-githubs-bug-bounty-program/",
-      "description": "Comments]]>"
-    },
-    {
-      "name": "John C. Dvorak has died",
-      "url": "https://twitter.com/na_announce/status/2079952538040672302",
-      "description": "Comments]]>"
-    },
-    {
-      "name": "Malleable Computing, Emacs, and You",
-      "url": "http://yummymelon.com/devnull/malleable-computing-emacs-and-you.html",
-      "description": "Comments]]>"
-    },
-    {
-      "name": "Petals: Run LLMs at home, BitTorrent-style",
-      "url": "https://petals.dev/",
-      "description": "Comments]]>"
-    },
-    {
-      "name": "Making",
-      "url": "https://beej.us/blog/data/ai-making/",
-      "description": "Comments]]>"
-    },
-    {
-      "name": "Nobody knows what a used GPU cluster is worth",
-      "url": "https://ciphertalk.substack.com/p/nobody-knows-what-a-used-gpu-cluster",
+      "name": "Amiga 1000: Ten years ahead of its time",
+      "url": "https://dfarq.homeip.net/amiga-1000-ten-years-ahead-of-its-time/",
       "description": "Comments]]>"
     },
     {
@@ -475,13 +455,18 @@
       "description": "Comments]]>"
     },
     {
-      "name": "Fairphone 6 wide camera experimental Linux support",
-      "url": "https://nondescriptpointer.com/articles/fairphone-6-wide-camera-linux/",
+      "name": "Show HN: Cactus Hybrid: We taught Gemma 4 to know when it&#x27;s wrong",
+      "url": "https://github.com/cactus-compute/cactus-hybrid",
       "description": "Comments]]>"
     },
     {
-      "name": "Codeberg Bans Cryptocurrency Projects",
-      "url": "https://codeberg.org/Codeberg/org/pulls/1254",
+      "name": "Making",
+      "url": "https://beej.us/blog/data/ai-making/",
+      "description": "Comments]]>"
+    },
+    {
+      "name": "Making ASCII Art in Vim",
+      "url": "https://alexyang.dev/vim-ascii-art/",
       "description": "Comments]]>"
     },
     {
@@ -490,8 +475,23 @@
       "description": "Comments]]>"
     },
     {
-      "name": "git&#x27;s –end-of-options Flag",
-      "url": "https://nesbitt.io/2026/07/21/end-of-options.html",
+      "name": "Medici family mystery may be solved after more than 400 years",
+      "url": "https://www.cnn.com/2026/07/15/science/medici-family-mystery-dna-malaria",
+      "description": "Comments]]>"
+    },
+    {
+      "name": "Frequently Asked Questions on Expertise",
+      "url": "https://jtpeterson.substack.com/p/faq-on-expertise",
+      "description": "Comments]]>"
+    },
+    {
+      "name": "Why malloc always does more than I asked for?",
+      "url": "https://ssenthilnathan3.github.io/blog/malloc/",
+      "description": "Comments]]>"
+    },
+    {
+      "name": "Protecting our FLOSS commons from LLMs",
+      "url": "https://blog.codeberg.org/protecting-our-floss-commons-from-llms.html",
       "description": "Comments]]>"
     }
   ]

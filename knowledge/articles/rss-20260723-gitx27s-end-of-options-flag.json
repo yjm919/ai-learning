@@ -3,19 +3,21 @@
   "title": "git&#x27;s –end-of-options Flag",
   "source": "rss",
   "source_url": "https://nesbitt.io/2026/07/21/end-of-options.html",
-  "summary": "本文介绍了Git中‘--’（end-of-options）标志的用途和用法。该标志用于分隔选项和参数，防止文件名被误解析为选项或分支名。作者通过示例展示了在删除文件、切换分支等场景下使用‘--’的重要性，并解释了其工作原理。文章强调了这一标志在避免歧义和提升命令行操作安全性方面的价值。",
-  "summary_en": "This article explains the purpose and usage of the '--' (end-of-options) flag in Git. It is used to separate options from arguments, preventing filenames from being misinterpreted as options or branch names. The author demonstrates its importance in scenarios like deleting files or switching branches, and explains how it works. The article highlights the flag's value in avoiding ambiguity and improving command-line safety.",
+  "summary": "本文介绍了Git中'--'（end-of-options）标志的用法，用于明确区分选项和参数，避免歧义。作者通过示例展示了在文件名以'-'开头或包含特殊字符时，使用'--'可以确保Git正确解析。该标志在脚本和自动化中尤为重要，能防止意外行为。文章还提及了其他命令中类似用法，强调了这一POSIX标准特性在提高命令行稳健性方面的价值。",
+  "summary_en": "This article explains the usage of the '--' (end-of-options) flag in Git, which disambiguates options from arguments. It demonstrates how using '--' prevents issues when filenames start with '-' or contain special characters, ensuring correct parsing. The flag is crucial in scripts and automation to avoid unexpected behavior. The article also notes similar usage in other commands, highlighting the value of this POSIX standard feature for robust command-line operations.",
   "tags": [
     "git",
     "command-line",
-    "version-control"
+    "posix",
+    "scripting",
+    "best-practices"
   ],
   "status": "draft",
   "score": 1,
   "metrics": {
     "stars": 0
   },
-  "fetched_at": "2026-07-23T04:03:02.703704+00:00",
-  "analyzed_at": "2026-07-23T04:04:41.841851+00:00",
+  "fetched_at": "2026-07-23T10:13:10.769117+00:00",
+  "analyzed_at": "2026-07-23T10:14:13.383620+00:00",
   "published_at": null
 }

@@ -3,20 +3,21 @@
   "title": "Medici family mystery may be solved after more than 400 years",
   "source": "rss",
   "source_url": "https://www.cnn.com/2026/07/15/science/medici-family-mystery-dna-malaria",
-  "summary": "一项新的DNA研究可能解开了美第奇家族长达400多年的谜团，发现疟疾可能是导致该家族多名成员死亡的原因。这项研究通过分析美第奇家族成员的遗骸，揭示了历史上神秘死亡背后的疾病因素。",
-  "summary_en": "A new DNA study may solve the 400-year-old mystery of the Medici family, suggesting malaria as the cause of death for several members. The research analyzed remains to uncover the disease behind historical unexplained deaths.",
+  "summary": "经过400多年，美第奇家族的谜团可能通过DNA分析得到解决。科学家利用现代基因组学技术，对美第奇家族成员的遗骸进行测序，发现他们可能死于疟疾。这一发现揭示了文艺复兴时期佛罗伦萨统治者的健康状况，并展示了DNA分析在历史研究中的应用。",
+  "summary_en": "After more than 400 years, the Medici family mystery may be solved through DNA analysis. Scientists used modern genomics to sequence the remains of Medici family members, suggesting they may have died from malaria. This discovery sheds light on the health of Renaissance Florence rulers and demonstrates the application of DNA analysis in historical research.",
   "tags": [
-    "dna",
-    "history",
-    "disease",
-    "genetics"
+    "dna analysis",
+    "genomics",
+    "historical research",
+    "medici family",
+    "malaria"
   ],
   "status": "draft",
   "score": 1,
   "metrics": {
     "stars": 0
   },
-  "fetched_at": "2026-07-23T04:03:02.703704+00:00",
-  "analyzed_at": "2026-07-23T04:04:04.223714+00:00",
+  "fetched_at": "2026-07-23T10:13:10.769117+00:00",
+  "analyzed_at": "2026-07-23T10:14:49.268070+00:00",
   "published_at": null
 }

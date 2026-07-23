@@ -3,21 +3,21 @@
   "title": "Terence Tao&#x27;s ChatGPT conversation about the Jacobian Conjecture counterexample",
   "source": "rss",
   "source_url": "https://chatgpt.com/share/6a5fdc7a-d6f8-83e8-bbea-8deb42cfed56",
-  "summary": "Terence Tao与ChatGPT讨论Jacobian猜想反例的对话。Tao利用ChatGPT探索数学猜想，展示了AI在高级数学推理中的辅助作用。对话涉及反例构建、多项式映射和代数几何概念，体现了大语言模型在复杂问题上的交互能力。",
-  "summary_en": "Terence Tao's conversation with ChatGPT about a counterexample to the Jacobian Conjecture. Tao leverages ChatGPT to explore the mathematical conjecture, demonstrating AI's role in advanced mathematical reasoning. The discussion covers counterexample construction, polynomial mappings, and algebraic geometry concepts, highlighting LLM capabilities in complex problem-solving.",
+  "summary": "著名数学家陶哲轩（Terence Tao）与ChatGPT就雅可比猜想（Jacobian Conjecture）的反例进行了一次对话。他利用ChatGPT协助探索和验证关于多项式映射的数学猜想，展示了AI在高级数学推理中的辅助作用。对话中，ChatGPT帮助生成和检查反例，并讨论相关代数几何概念，体现了LLM在复杂数学问题解决中的潜力。",
+  "summary_en": "Renowned mathematician Terence Tao had a conversation with ChatGPT about a counterexample to the Jacobian Conjecture. He used ChatGPT to assist in exploring and verifying the mathematical conjecture about polynomial mappings, demonstrating AI's role in advanced mathematical reasoning. The dialogue involved generating and checking counterexamples and discussing related algebraic geometry concepts, showcasing the potential of LLMs in complex problem-solving.",
   "tags": [
-    "llm",
     "mathematics",
     "jacobian-conjecture",
+    "chatgpt",
     "ai-reasoning",
-    "terence-tao"
+    "polynomial-mappings"
   ],
   "status": "draft",
   "score": 1,
   "metrics": {
     "stars": 0
   },
-  "fetched_at": "2026-07-23T04:03:02.703704+00:00",
-  "analyzed_at": "2026-07-23T04:03:54.383352+00:00",
+  "fetched_at": "2026-07-23T10:13:10.769117+00:00",
+  "analyzed_at": "2026-07-23T10:14:07.668541+00:00",
   "published_at": null
 }

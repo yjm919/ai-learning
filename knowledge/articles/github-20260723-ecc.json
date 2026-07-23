@@ -3,8 +3,8 @@
   "title": "affaan-m/ECC",
   "source": "github",
   "source_url": "https://github.com/affaan-m/ECC",
-  "summary": "ECC 是一个代理工具性能优化系统，专为 Claude Code、Codex、Opencode、Cursor 等 AI 编码代理设计。它集成了技能、本能、记忆、安全性和研究优先的开发理念，旨在提升 LLM 代理的效率和可靠性。该项目在 GitHub 上拥有超过 23 万星标，涵盖 AI 代理、Anthropic、Claude、开发者工具、MCP 等主题，是当前 AI 代理领域的热门项目。",
-  "summary_en": "ECC is an agent harness performance optimization system designed for AI coding agents like Claude Code, Codex, Opencode, and Cursor. It integrates skills, instincts, memory, security, and research-first development to enhance the efficiency and reliability of LLM agents. With over 232K stars on GitHub, it covers topics such as AI agents, Anthropic, Claude, developer tools, and MCP, making it a trending project in the AI agent space.",
+  "summary": "ECC 是一个智能体工具性能优化系统，专为 Claude Code、Codex、Opencode、Cursor 等 AI 编程助手设计。它集成了技能、本能、记忆、安全性和研究优先的开发理念，旨在提升 AI 智能体的工作效率和代码生成质量。项目支持 MCP 协议，适用于多种 LLM 平台，是一个面向开发者的生产力工具。",
+  "summary_en": "ECC is an agent harness performance optimization system designed for AI coding assistants like Claude Code, Codex, Opencode, and Cursor. It integrates skills, instincts, memory, security, and research-first development to enhance agent efficiency and code generation quality. The project supports MCP protocol and is applicable across multiple LLM platforms, serving as a developer productivity tool.",
   "tags": [
     "ai-agents",
     "claude",
@@ -16,9 +16,9 @@
   "status": "draft",
   "score": 1,
   "metrics": {
-    "stars": 232280
+    "stars": 232366
   },
-  "fetched_at": "2026-07-23T04:03:02.703704+00:00",
-  "analyzed_at": "2026-07-23T04:03:10.598242+00:00",
+  "fetched_at": "2026-07-23T10:13:10.769117+00:00",
+  "analyzed_at": "2026-07-23T10:13:18.689106+00:00",
   "published_at": null
 }

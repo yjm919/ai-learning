@@ -3,24 +3,24 @@
   "title": "Snailclimb/JavaGuide",
   "source": "github",
   "source_url": "https://github.com/Snailclimb/JavaGuide",
-  "summary": "JavaGuide 是一个全面的 Java 面试与后端开发指南，涵盖计算机基础、数据库、分布式系统、高并发、系统设计及 AI 应用开发等核心主题。该项目在 GitHub 上拥有超过 15.7 万星标，涉及 agent、AI、上下文工程、DeepSeek、MCP、Spring AI 等前沿技术，是 Java 开发者准备面试和提升后端技能的宝贵资源。",
-  "summary_en": "JavaGuide is a comprehensive guide for Java interviews and backend development, covering computer fundamentals, databases, distributed systems, high concurrency, system design, and AI application development. With over 157k stars on GitHub, it includes topics such as agent, AI, context engineering, DeepSeek, MCP, Spring AI, making it a valuable resource for Java developers preparing for interviews and enhancing backend skills.",
+  "summary": "JavaGuide 是一个全面的 Java 面试与后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计及 AI 应用开发等核心领域。项目拥有超过 15.7 万星标，并涉及 agent、AI、context-engineering、deepseek、MCP 等前沿技术，适合准备技术面试和系统学习后端开发与 AI 集成的开发者。",
+  "summary_en": "JavaGuide is a comprehensive interview guide for Java and backend development, covering computer fundamentals, databases, distributed systems, high concurrency, system design, and AI application development. With over 157k stars, it also touches on agent, AI, context-engineering, DeepSeek, MCP, and other cutting-edge topics, making it suitable for developers preparing for technical interviews and learning backend integration with AI.",
   "tags": [
     "java",
     "interview",
     "system-design",
     "agent",
     "ai",
-    "spring-ai",
     "database",
-    "distributed-systems"
+    "distributed-systems",
+    "high-concurrency"
   ],
   "status": "draft",
   "score": 1,
   "metrics": {
-    "stars": 157237
+    "stars": 157243
   },
-  "fetched_at": "2026-07-23T04:03:02.703704+00:00",
-  "analyzed_at": "2026-07-23T04:03:43.013457+00:00",
+  "fetched_at": "2026-07-23T10:13:10.769117+00:00",
+  "analyzed_at": "2026-07-23T10:13:51.580183+00:00",
   "published_at": null
 }

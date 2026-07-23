@@ -3,21 +3,21 @@
   "title": "GigaToken: ~1000x faster Language model tokenization",
   "source": "rss",
   "source_url": "https://github.com/marcelroed/gigatoken/",
-  "summary": "GigaToken 是一个旨在将语言模型分词速度提升约1000倍的开源项目。它通过优化算法和实现，显著加速了文本到token的转换过程，这对于大规模语言模型的训练和推理效率有重要影响。项目提供了Python接口，易于集成到现有工作流中。",
-  "summary_en": "GigaToken is an open-source project aiming to accelerate language model tokenization by approximately 1000x. It significantly speeds up the text-to-token conversion process through optimized algorithms and implementations, which is crucial for the efficiency of large-scale language model training and inference. The project provides a Python interface for easy integration into existing workflows.",
+  "summary": "GigaToken 是一个旨在将语言模型分词速度提升约 1000 倍的开源项目。它通过优化算法和实现，显著加速了 NLP 流程中的分词环节，这对于大规模语言模型训练和推理的效率提升具有重要意义。该项目提供了代码和文档，便于集成到现有工作流中。",
+  "summary_en": "GigaToken is an open-source project aiming to accelerate language model tokenization by approximately 1000x. It significantly speeds up the tokenization step in NLP pipelines through optimized algorithms and implementations, which is crucial for improving the efficiency of large-scale language model training and inference. The project provides code and documentation for easy integration into existing workflows.",
   "tags": [
     "tokenization",
-    "performance",
     "nlp",
-    "language-model",
-    "optimization"
+    "performance",
+    "open-source",
+    "language-model"
   ],
   "status": "draft",
   "score": 1,
   "metrics": {
     "stars": 0
   },
-  "fetched_at": "2026-07-23T04:03:02.703704+00:00",
-  "analyzed_at": "2026-07-23T04:03:59.768733+00:00",
+  "fetched_at": "2026-07-23T10:13:10.769117+00:00",
+  "analyzed_at": "2026-07-23T10:14:21.355896+00:00",
   "published_at": null
 }

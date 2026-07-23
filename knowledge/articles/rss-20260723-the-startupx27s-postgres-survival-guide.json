@@ -3,21 +3,21 @@
   "title": "The startup&#x27;s Postgres survival guide",
   "source": "rss",
   "source_url": "https://hatchet.run/blog/postgres-survival-guide",
-  "summary": "这篇指南为初创公司提供PostgreSQL数据库的生存指南，涵盖常见陷阱、性能优化、备份策略和扩展建议，帮助团队避免数据丢失和性能瓶颈。",
-  "summary_en": "This guide provides a survival guide for startups using PostgreSQL, covering common pitfalls, performance optimization, backup strategies, and scaling advice to help teams avoid data loss and performance bottlenecks.",
+  "summary": "这篇文章是Hatchet团队为初创公司编写的PostgreSQL生存指南，涵盖了从数据库选型、部署、迁移到日常运维和性能优化的实用建议。内容包括如何避免常见陷阱（如连接池耗尽、慢查询、索引误用）、监控关键指标、备份策略以及扩展方案。文章强调了在资源有限的情况下，如何通过合理配置和工具（如PgBouncer、pg_stat_statements）确保Postgres稳定运行，适合初创公司技术团队参考。",
+  "summary_en": "This article is a PostgreSQL survival guide for startups by the Hatchet team, covering practical advice on database selection, deployment, migration, daily operations, and performance optimization. It includes tips to avoid common pitfalls like connection pool exhaustion, slow queries, and index misuse, along with monitoring key metrics, backup strategies, and scaling solutions. The guide emphasizes maintaining Postgres stability with limited resources using tools like PgBouncer and pg_stat_statements, making it valuable for startup tech teams.",
   "tags": [
     "postgresql",
     "database",
     "startup",
-    "performance",
-    "backup"
+    "devops",
+    "performance"
   ],
   "status": "draft",
   "score": 1,
   "metrics": {
     "stars": 0
   },
-  "fetched_at": "2026-07-23T04:03:02.703704+00:00",
-  "analyzed_at": "2026-07-23T04:04:39.108750+00:00",
+  "fetched_at": "2026-07-23T10:13:10.769117+00:00",
+  "analyzed_at": "2026-07-23T10:14:46.635246+00:00",
   "published_at": null
 }

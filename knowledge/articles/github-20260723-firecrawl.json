@@ -3,8 +3,8 @@
   "title": "firecrawl/firecrawl",
   "source": "github",
   "source_url": "https://github.com/firecrawl/firecrawl",
-  "summary": "Firecrawl 是一个用于大规模搜索、抓取和与网页交互的 API。它支持 AI 代理、AI 爬虫、数据提取、HTML 转 Markdown 等功能，特别适合为 LLM 提供结构化网页数据。该项目在 GitHub 上拥有超过 15 万星标，是 AI 数据采集领域的热门工具。",
-  "summary_en": "Firecrawl is an API for searching, scraping, and interacting with the web at scale. It supports AI agents, AI crawling, data extraction, HTML-to-Markdown conversion, and is tailored for providing structured web data to LLMs. With over 150k stars on GitHub, it's a popular tool in AI data acquisition.",
+  "summary": "Firecrawl 是一个用于大规模搜索、抓取和与网页交互的 API 工具。它专为 AI 和 LLM 应用设计，支持将网页内容转换为 Markdown 格式，便于数据处理和模型训练。该项目在 GitHub 上拥有超过 15 万星标，涵盖 AI 爬虫、数据提取、网页搜索等功能，是构建 AI 代理和数据管道的热门基础设施。",
+  "summary_en": "Firecrawl is an API for searching, scraping, and interacting with the web at scale. Designed for AI and LLM applications, it converts web content to Markdown for easy data processing and model training. With over 150k GitHub stars, it covers AI crawling, data extraction, and web search, serving as popular infrastructure for building AI agents and data pipelines.",
   "tags": [
     "ai",
     "web-scraping",
@@ -15,9 +15,9 @@
   "status": "draft",
   "score": 1,
   "metrics": {
-    "stars": 154613
+    "stars": 154766
   },
-  "fetched_at": "2026-07-23T04:03:02.703704+00:00",
-  "analyzed_at": "2026-07-23T04:03:45.376332+00:00",
+  "fetched_at": "2026-07-23T10:13:10.769117+00:00",
+  "analyzed_at": "2026-07-23T10:13:54.213460+00:00",
   "published_at": null
 }

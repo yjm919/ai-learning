@@ -3,20 +3,20 @@
   "title": "Everyone should know SIMD",
   "source": "rss",
   "source_url": "https://mitchellh.com/writing/everyone-should-know-simd",
-  "summary": "本文介绍了SIMD（单指令多数据）技术，强调其作为并行处理的一种形式，能显著提升性能。作者通过具体例子展示了SIMD在字符串处理、数据压缩等场景的应用，并指出掌握SIMD对程序员的重要性。",
-  "summary_en": "This article introduces SIMD (Single Instruction, Multiple Data) technology, emphasizing its role as a form of parallel processing that can significantly boost performance. The author demonstrates SIMD applications in string processing, data compression, and other scenarios, highlighting its importance for programmers.",
+  "summary": "本文介绍了SIMD（单指令多数据）技术，强调其重要性，并解释了SIMD如何通过并行处理提升性能。作者提供了实际示例，展示了SIMD在字符串处理、数据压缩等场景中的应用，并鼓励开发者学习使用SIMD。",
+  "summary_en": "This article introduces SIMD (Single Instruction, Multiple Data) technology, emphasizing its importance and explaining how SIMD improves performance through parallel processing. The author provides practical examples demonstrating SIMD applications in string processing, data compression, and more, encouraging developers to learn and use SIMD.",
   "tags": [
     "simd",
+    "performance",
     "parallel computing",
-    "performance optimization",
-    "programming"
+    "optimization"
   ],
   "status": "draft",
   "score": 1,
   "metrics": {
     "stars": 0
   },
-  "fetched_at": "2026-07-23T04:03:02.703704+00:00",
-  "analyzed_at": "2026-07-23T04:04:06.585291+00:00",
+  "fetched_at": "2026-07-23T10:13:10.769117+00:00",
+  "analyzed_at": "2026-07-23T10:14:26.116794+00:00",
   "published_at": null
 }
