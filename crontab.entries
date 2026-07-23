@@ -1,0 +1,5 @@
+# 每天早上 8:00 — Step 1 免费采集（GitHub + RSS）
+0 8 * * * mkdir -p ~/ai-knowledge-base/logs && cd ~/ai-knowledge-base && python3 pipeline/pipeline.py --sources github,rss --step 1 --limit 20 --verbose >> logs/collect.log 2>&1
+
+# 每周日上午 10:00 — Step 2 AI 分析 + 入库
+0 10 * * 0 mkdir -p ~/ai-knowledge-base/logs && cd ~/ai-knowledge-base && python3 pipeline/pipeline.py --step 2 --verbose >> logs/analyze.log 2>&1

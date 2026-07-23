@@ -1,0 +1,23 @@
+{
+  "id": "20260722-github-opencode",
+  "title": "anomalyco/opencode",
+  "source": "github",
+  "source_url": "https://github.com/anomalyco/opencode",
+  "summary": "OpenCode 是一个开源的编码代理项目，旨在为开发者提供智能化的代码生成、补全和调试功能。它利用大型语言模型（LLM）和人工智能技术，帮助用户更高效地编写代码。该项目在 GitHub 上拥有超过 18 万颗星，表明其受到广泛关注和认可。",
+  "summary_en": "OpenCode is an open-source coding agent designed to provide developers with intelligent code generation, completion, and debugging capabilities. It leverages large language models (LLMs) and AI technologies to help users write code more efficiently. With over 188K stars on GitHub, the project has gained widespread attention and recognition.",
+  "tags": [
+    "coding agent",
+    "open source",
+    "llm",
+    "code generation",
+    "ai assistant"
+  ],
+  "status": "draft",
+  "score": 88,
+  "metrics": {
+    "stars": 188496
+  },
+  "fetched_at": "2026-07-22T11:05:49.857933+00:00",
+  "analyzed_at": "2026-07-22T11:06:07.573704+00:00",
+  "published_at": null
+}

@@ -1,0 +1,23 @@
+{
+  "id": "20260722-github-promptschat",
+  "title": "f/prompts.chat",
+  "source": "github",
+  "source_url": "https://github.com/f/prompts.chat",
+  "summary": "prompts.chat 是一个开源项目，原名 Awesome ChatGPT Prompts，旨在让用户分享、发现和收集来自社区的提示词。它支持自托管，确保组织完全隐私。项目基于 Next.js 和 TypeScript 构建，涵盖了 AI、LLM、提示工程等主题，拥有超过 16 万星标，是一个高质量的提示词资源库。",
+  "summary_en": "prompts.chat is an open-source project, formerly known as Awesome ChatGPT Prompts, designed for sharing, discovering, and collecting prompts from the community. It supports self-hosting for complete organizational privacy. Built with Next.js and TypeScript, it covers topics like AI, LLM, and prompt engineering, with over 166k stars, making it a high-quality prompt resource.",
+  "tags": [
+    "prompt-engineering",
+    "chatgpt",
+    "llm",
+    "open-source",
+    "ai"
+  ],
+  "status": "draft",
+  "score": 85,
+  "metrics": {
+    "stars": 166187
+  },
+  "fetched_at": "2026-07-22T11:05:49.857933+00:00",
+  "analyzed_at": "2026-07-22T11:06:14.828793+00:00",
+  "published_at": null
+}

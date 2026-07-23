@@ -1,0 +1,23 @@
+{
+  "id": "20260722-github-ollama",
+  "title": "ollama/ollama",
+  "source": "github",
+  "source_url": "https://github.com/ollama/ollama",
+  "summary": "Ollama 是一个开源项目，旨在让用户轻松运行 Kimi-K2.6、GLM-5.2、MiniMax、DeepSeek、gpt-oss、Qwen、Gemma 等多种大型语言模型。该项目使用 Go 语言开发，拥有超过 17.6 万星标，支持包括 deepseek、gemma、llama 等在内的多种模型。它简化了本地部署和运行 LLM 的流程，是 AI 社区中广泛使用的工具。",
+  "summary_en": "Ollama is an open-source project designed to easily run various large language models including Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma, and others. Developed in Go, it has over 176k stars and supports models like deepseek, gemma, and llama. It simplifies local deployment and execution of LLMs, making it a widely used tool in the AI community.",
+  "tags": [
+    "llm",
+    "ollama",
+    "open-source",
+    "golang",
+    "model-hub"
+  ],
+  "status": "draft",
+  "score": 85,
+  "metrics": {
+    "stars": 176621
+  },
+  "fetched_at": "2026-07-22T11:05:49.857933+00:00",
+  "analyzed_at": "2026-07-22T11:06:12.723544+00:00",
+  "published_at": null
+}
