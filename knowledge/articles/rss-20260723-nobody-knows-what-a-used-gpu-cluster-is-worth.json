@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260723-nobody-knows-what-a-used-gpu-cluster-is-worth",
+  "title": "Nobody knows what a used GPU cluster is worth",
+  "source": "rss",
+  "source_url": "https://ciphertalk.substack.com/p/nobody-knows-what-a-used-gpu-cluster",
+  "summary": "本文探讨了二手GPU集群市场估值的不确定性。由于GPU技术快速迭代、AI训练需求波动以及缺乏标准化评估方法，二手GPU集群的价值难以确定。文章分析了影响定价的关键因素，包括型号、使用年限、维护状况和市场需求，并指出这一市场的不透明性对AI基础设施投资决策构成挑战。",
+  "summary_en": "This article explores the uncertainty in valuing used GPU clusters. Due to rapid GPU technology iteration, fluctuating AI training demand, and the lack of standardized valuation methods, the value of used GPU clusters is hard to determine. It analyzes key pricing factors including model, age, maintenance status, and market demand, highlighting how this opaque market challenges AI infrastructure investment decisions.",
+  "tags": [
+    "gpu",
+    "ai infrastructure",
+    "valuation",
+    "hardware market",
+    "cloud computing"
+  ],
+  "status": "draft",
+  "score": 1,
+  "metrics": {
+    "stars": 0
+  },
+  "fetched_at": "2026-07-23T04:03:02.703704+00:00",
+  "analyzed_at": "2026-07-23T04:04:29.881393+00:00",
+  "published_at": null
+}

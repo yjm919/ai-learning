@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260723-terence-taox27s-chatgpt-conversation-about-the-jacobian-conjecture-counterexample",
+  "title": "Terence Tao&#x27;s ChatGPT conversation about the Jacobian Conjecture counterexample",
+  "source": "rss",
+  "source_url": "https://chatgpt.com/share/6a5fdc7a-d6f8-83e8-bbea-8deb42cfed56",
+  "summary": "Terence Tao与ChatGPT讨论Jacobian猜想反例的对话。Tao利用ChatGPT探索数学猜想，展示了AI在高级数学推理中的辅助作用。对话涉及反例构建、多项式映射和代数几何概念，体现了大语言模型在复杂问题上的交互能力。",
+  "summary_en": "Terence Tao's conversation with ChatGPT about a counterexample to the Jacobian Conjecture. Tao leverages ChatGPT to explore the mathematical conjecture, demonstrating AI's role in advanced mathematical reasoning. The discussion covers counterexample construction, polynomial mappings, and algebraic geometry concepts, highlighting LLM capabilities in complex problem-solving.",
+  "tags": [
+    "llm",
+    "mathematics",
+    "jacobian-conjecture",
+    "ai-reasoning",
+    "terence-tao"
+  ],
+  "status": "draft",
+  "score": 1,
+  "metrics": {
+    "stars": 0
+  },
+  "fetched_at": "2026-07-23T04:03:02.703704+00:00",
+  "analyzed_at": "2026-07-23T04:03:54.383352+00:00",
+  "published_at": null
+}

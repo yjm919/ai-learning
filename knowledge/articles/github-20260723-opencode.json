@@ -1,0 +1,23 @@
+{
+  "id": "github-20260723-opencode",
+  "title": "anomalyco/opencode",
+  "source": "github",
+  "source_url": "https://github.com/anomalyco/opencode",
+  "summary": "OpenCode 是一个开源编码代理，旨在帮助开发者自动化和优化代码编写过程。它利用 AI 技术提供智能代码补全、错误检测和重构建议，支持多种编程语言，并集成到主流 IDE 中。该项目在 GitHub 上拥有大量星标，表明其社区认可度较高。",
+  "summary_en": "OpenCode is an open-source coding agent designed to help developers automate and optimize the code writing process. It leverages AI technology to provide intelligent code completion, error detection, and refactoring suggestions, supporting multiple programming languages and integrating with mainstream IDEs. The project has a high number of stars on GitHub, indicating strong community recognition.",
+  "tags": [
+    "coding agent",
+    "open source",
+    "ai",
+    "code automation",
+    "developer tools"
+  ],
+  "status": "draft",
+  "score": 1,
+  "metrics": {
+    "stars": 188732
+  },
+  "fetched_at": "2026-07-23T04:03:02.703704+00:00",
+  "analyzed_at": "2026-07-23T04:03:22.805532+00:00",
+  "published_at": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "github-20260723-hermes-agent",
+  "title": "NousResearch/hermes-agent",
+  "source": "github",
+  "source_url": "https://github.com/NousResearch/hermes-agent",
+  "summary": "Hermes Agent 是一个由 NousResearch 开发的 AI 代理项目，旨在与用户共同成长。该项目支持多种大型语言模型，包括 Anthropic 的 Claude、OpenAI 的 ChatGPT 和 Codex 等。它被设计为可扩展的智能代理，适用于多种交互场景，如代码生成、对话和任务自动化。项目在 GitHub 上拥有 219041 颗星，表明其社区关注度极高，但需注意该星数可能包含其他关联项目的统计。",
+  "summary_en": "Hermes Agent is an AI agent project developed by NousResearch, designed to grow with users. It supports multiple large language models including Anthropic's Claude, OpenAI's ChatGPT and Codex. The agent is built to be extensible for various interaction scenarios such as code generation, conversation, and task automation. With 219041 stars on GitHub, it shows high community attention, though the star count may include statistics from related projects.",
+  "tags": [
+    "ai-agent",
+    "llm",
+    "openai",
+    "anthropic",
+    "claude",
+    "chatgpt",
+    "codex",
+    "nous-research"
+  ],
+  "status": "draft",
+  "score": 1,
+  "metrics": {
+    "stars": 219041
+  },
+  "fetched_at": "2026-07-23T04:03:02.703704+00:00",
+  "analyzed_at": "2026-07-23T04:03:13.902343+00:00",
+  "published_at": null
+}

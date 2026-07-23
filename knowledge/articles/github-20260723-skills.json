@@ -1,0 +1,22 @@
+{
+  "id": "github-20260723-skills",
+  "title": "mattpocock/skills",
+  "source": "github",
+  "source_url": "https://github.com/mattpocock/skills",
+  "summary": "这是一个名为 'Skills for Real Engineers' 的开源项目，由 Matt Pocock 创建。项目内容直接来自其 .agents 目录，旨在为真正的工程师提供实用技能。该项目在 GitHub 上获得了极高的关注度，拥有 182,802 颗星，表明其在开发者社区中非常受欢迎。",
+  "summary_en": "This is an open-source project called 'Skills for Real Engineers' created by Matt Pocock. The content comes directly from his .agents directory, aiming to provide practical skills for real engineers. The project has gained immense popularity on GitHub with 182,802 stars, indicating its high appeal in the developer community.",
+  "tags": [
+    "skills",
+    "engineering",
+    "open-source",
+    "developer-tools"
+  ],
+  "status": "draft",
+  "score": 1,
+  "metrics": {
+    "stars": 182802
+  },
+  "fetched_at": "2026-07-23T04:03:02.703704+00:00",
+  "analyzed_at": "2026-07-23T04:03:27.461515+00:00",
+  "published_at": null
+}

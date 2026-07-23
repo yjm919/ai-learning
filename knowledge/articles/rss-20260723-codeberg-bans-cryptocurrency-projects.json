@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260723-codeberg-bans-cryptocurrency-projects",
+  "title": "Codeberg Bans Cryptocurrency Projects",
+  "source": "rss",
+  "source_url": "https://codeberg.org/Codeberg/org/pulls/1254",
+  "summary": "Codeberg，一个非营利性的Git托管平台，宣布禁止加密货币项目在其平台上托管。此举旨在减少与加密货币相关的能源消耗、诈骗和环境影响，并维护平台的开源和社区价值观。该决定引发了关于开源平台中立性和加密货币在技术生态中角色的讨论。",
+  "summary_en": "Codeberg, a non-profit Git hosting platform, has announced a ban on cryptocurrency projects from its platform. This decision aims to reduce energy consumption, scams, and environmental impact associated with cryptocurrencies, while upholding the platform's open-source and community values. The move has sparked discussions about platform neutrality in open-source ecosystems and the role of cryptocurrencies in tech.",
+  "tags": [
+    "codeberg",
+    "cryptocurrency",
+    "open-source",
+    "platform-policy",
+    "ban"
+  ],
+  "status": "draft",
+  "score": 1,
+  "metrics": {
+    "stars": 0
+  },
+  "fetched_at": "2026-07-23T04:03:02.703704+00:00",
+  "analyzed_at": "2026-07-23T04:04:37.279184+00:00",
+  "published_at": null
+}

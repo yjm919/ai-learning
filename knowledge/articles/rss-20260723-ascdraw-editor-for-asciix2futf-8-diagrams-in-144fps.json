@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260723-ascdraw-editor-for-asciix2futf-8-diagrams-in-144fps",
+  "title": "ascdraw: Editor for ASCII&#x2F;UTF-8 diagrams (in 144FPS)",
+  "source": "rss",
+  "source_url": "https://github.com/exlee/ascdraw",
+  "summary": "ascdraw 是一个用于绘制 ASCII/UTF-8 图表的高性能编辑器，支持 144FPS 的流畅渲染。它允许用户快速创建和编辑基于文本的图表，适用于技术文档、代码注释等场景。该项目基于 Web 技术实现，具有实时预览和交互式编辑功能。",
+  "summary_en": "ascdraw is a high-performance editor for creating ASCII/UTF-8 diagrams with smooth rendering at 144FPS. It enables users to quickly create and edit text-based diagrams, suitable for technical documentation and code comments. The project is built on web technologies with real-time preview and interactive editing.",
+  "tags": [
+    "ascii-art",
+    "diagram-editor",
+    "text-mode",
+    "visualization"
+  ],
+  "status": "draft",
+  "score": 1,
+  "metrics": {
+    "stars": 0
+  },
+  "fetched_at": "2026-07-23T04:03:02.703704+00:00",
+  "analyzed_at": "2026-07-23T04:04:11.669042+00:00",
+  "published_at": null
+}

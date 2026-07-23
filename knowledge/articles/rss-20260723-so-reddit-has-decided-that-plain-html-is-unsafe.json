@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260723-so-reddit-has-decided-that-plain-html-is-unsafe",
+  "title": "So Reddit has decided that plain HTML is unsafe",
+  "source": "rss",
+  "source_url": "https://www.cole-k.com/2026/07/21/reddit/",
+  "summary": "Reddit 决定将纯 HTML 视为不安全，可能意味着其平台正在加强内容安全策略，例如通过 JavaScript 执行或动态渲染来防止 XSS 攻击或数据泄露。这反映了现代 Web 应用在安全性与用户体验之间的权衡，对 AI 爬虫和内容分析工具可能产生影响。",
+  "summary_en": "Reddit has decided that plain HTML is unsafe, likely indicating enhanced content security measures such as JavaScript execution or dynamic rendering to prevent XSS attacks or data leaks. This reflects the trade-off between security and user experience in modern web apps, potentially impacting AI crawlers and content analysis tools.",
+  "tags": [
+    "web security",
+    "xss prevention",
+    "content security",
+    "reddit",
+    "dynamic rendering"
+  ],
+  "status": "draft",
+  "score": 1,
+  "metrics": {
+    "stars": 0
+  },
+  "fetched_at": "2026-07-23T04:03:02.703704+00:00",
+  "analyzed_at": "2026-07-23T04:04:32.446905+00:00",
+  "published_at": null
+}

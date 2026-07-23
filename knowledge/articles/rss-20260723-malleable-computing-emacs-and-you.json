@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260723-malleable-computing-emacs-and-you",
+  "title": "Malleable Computing, Emacs, and You",
+  "source": "rss",
+  "source_url": "http://yummymelon.com/devnull/malleable-computing-emacs-and-you.html",
+  "summary": "这篇文章探讨了“可塑计算”的概念，强调软件系统应像Emacs一样高度可定制和可扩展，允许用户自由修改其行为。作者认为，现代AI/LLM系统缺乏这种可塑性，限制了用户的创造力和适应性。文章呼吁在AI工具设计中融入可塑性原则，以增强用户控制力和系统灵活性。",
+  "summary_en": "This article discusses the concept of 'malleable computing,' emphasizing that software systems should be as highly customizable and extensible as Emacs, allowing users to freely modify their behavior. The author argues that modern AI/LLM systems lack such malleability, limiting user creativity and adaptability. It calls for incorporating malleability principles into AI tool design to enhance user control and system flexibility.",
+  "tags": [
+    "malleable computing",
+    "emacs",
+    "customization",
+    "ai design",
+    "user control"
+  ],
+  "status": "draft",
+  "score": 1,
+  "metrics": {
+    "stars": 0
+  },
+  "fetched_at": "2026-07-23T04:03:02.703704+00:00",
+  "analyzed_at": "2026-07-23T04:04:21.374698+00:00",
+  "published_at": null
+}

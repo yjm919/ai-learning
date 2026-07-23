@@ -1,0 +1,21 @@
+{
+  "id": "rss-20260723-gitx27s-end-of-options-flag",
+  "title": "git&#x27;s –end-of-options Flag",
+  "source": "rss",
+  "source_url": "https://nesbitt.io/2026/07/21/end-of-options.html",
+  "summary": "本文介绍了Git中‘--’（end-of-options）标志的用途和用法。该标志用于分隔选项和参数，防止文件名被误解析为选项或分支名。作者通过示例展示了在删除文件、切换分支等场景下使用‘--’的重要性，并解释了其工作原理。文章强调了这一标志在避免歧义和提升命令行操作安全性方面的价值。",
+  "summary_en": "This article explains the purpose and usage of the '--' (end-of-options) flag in Git. It is used to separate options from arguments, preventing filenames from being misinterpreted as options or branch names. The author demonstrates its importance in scenarios like deleting files or switching branches, and explains how it works. The article highlights the flag's value in avoiding ambiguity and improving command-line safety.",
+  "tags": [
+    "git",
+    "command-line",
+    "version-control"
+  ],
+  "status": "draft",
+  "score": 1,
+  "metrics": {
+    "stars": 0
+  },
+  "fetched_at": "2026-07-23T04:03:02.703704+00:00",
+  "analyzed_at": "2026-07-23T04:04:41.841851+00:00",
+  "published_at": null
+}

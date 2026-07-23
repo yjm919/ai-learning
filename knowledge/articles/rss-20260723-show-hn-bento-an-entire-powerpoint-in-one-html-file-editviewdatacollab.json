@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260723-show-hn-bento-an-entire-powerpoint-in-one-html-file-editviewdatacollab",
+  "title": "Show HN: Bento - An entire PowerPoint in one HTML file (edit+view+data+collab)",
+  "source": "rss",
+  "source_url": "https://bento.page/slides/",
+  "summary": "Bento 是一个创新工具，允许用户在一个 HTML 文件中创建、编辑、查看和协作处理整个 PowerPoint 演示文稿。它集成了编辑、视图、数据和协作功能，简化了演示文稿的制作和分享流程，无需依赖外部软件或复杂设置。",
+  "summary_en": "Bento is an innovative tool that allows users to create, edit, view, and collaborate on an entire PowerPoint presentation within a single HTML file. It integrates editing, viewing, data, and collaboration features, simplifying the process of making and sharing presentations without relying on external software or complex setups.",
+  "tags": [
+    "presentation",
+    "html",
+    "collaboration",
+    "productivity"
+  ],
+  "status": "draft",
+  "score": 1,
+  "metrics": {
+    "stars": 0
+  },
+  "fetched_at": "2026-07-23T04:03:02.703704+00:00",
+  "analyzed_at": "2026-07-23T04:04:02.079527+00:00",
+  "published_at": null
+}

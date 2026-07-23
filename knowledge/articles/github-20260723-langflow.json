@@ -1,0 +1,23 @@
+{
+  "id": "github-20260723-langflow",
+  "title": "langflow-ai/langflow",
+  "source": "github",
+  "source_url": "https://github.com/langflow-ai/langflow",
+  "summary": "Langflow 是一个强大的工具，用于构建和部署 AI 驱动的代理和工作流。它支持代理、ChatGPT、生成式 AI、大型语言模型和多代理系统，并基于 React Flow 构建，提供可视化界面。",
+  "summary_en": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows. It supports agents, ChatGPT, generative AI, large language models, and multi-agent systems, built on React Flow with a visual interface.",
+  "tags": [
+    "agents",
+    "generative-ai",
+    "large-language-models",
+    "multiagent",
+    "workflow"
+  ],
+  "status": "draft",
+  "score": 1,
+  "metrics": {
+    "stars": 152234
+  },
+  "fetched_at": "2026-07-23T04:03:02.703704+00:00",
+  "analyzed_at": "2026-07-23T04:03:47.163134+00:00",
+  "published_at": null
+}

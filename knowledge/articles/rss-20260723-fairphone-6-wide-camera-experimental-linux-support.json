@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260723-fairphone-6-wide-camera-experimental-linux-support",
+  "title": "Fairphone 6 wide camera experimental Linux support",
+  "source": "rss",
+  "source_url": "https://nondescriptpointer.com/articles/fairphone-6-wide-camera-linux/",
+  "summary": "该项目探讨了在Fairphone 6手机上为广角摄像头提供实验性Linux支持。通过逆向工程和驱动开发，作者尝试在Linux系统下启用广角摄像头功能，展示了开源社区对移动设备硬件支持的努力。",
+  "summary_en": "This project explores experimental Linux support for the wide camera on the Fairphone 6. Through reverse engineering and driver development, the author attempts to enable the wide camera function under Linux, demonstrating the open-source community's efforts in mobile device hardware support.",
+  "tags": [
+    "linux",
+    "mobile",
+    "camera",
+    "reverse-engineering",
+    "open-source"
+  ],
+  "status": "draft",
+  "score": 1,
+  "metrics": {
+    "stars": 0
+  },
+  "fetched_at": "2026-07-23T04:03:02.703704+00:00",
+  "analyzed_at": "2026-07-23T04:04:34.755057+00:00",
+  "published_at": null
+}

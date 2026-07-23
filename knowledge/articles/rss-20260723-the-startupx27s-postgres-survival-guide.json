@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260723-the-startupx27s-postgres-survival-guide",
+  "title": "The startup&#x27;s Postgres survival guide",
+  "source": "rss",
+  "source_url": "https://hatchet.run/blog/postgres-survival-guide",
+  "summary": "这篇指南为初创公司提供PostgreSQL数据库的生存指南，涵盖常见陷阱、性能优化、备份策略和扩展建议，帮助团队避免数据丢失和性能瓶颈。",
+  "summary_en": "This guide provides a survival guide for startups using PostgreSQL, covering common pitfalls, performance optimization, backup strategies, and scaling advice to help teams avoid data loss and performance bottlenecks.",
+  "tags": [
+    "postgresql",
+    "database",
+    "startup",
+    "performance",
+    "backup"
+  ],
+  "status": "draft",
+  "score": 1,
+  "metrics": {
+    "stars": 0
+  },
+  "fetched_at": "2026-07-23T04:03:02.703704+00:00",
+  "analyzed_at": "2026-07-23T04:04:39.108750+00:00",
+  "published_at": null
+}

@@ -1,0 +1,23 @@
+{
+  "id": "github-20260723-n8n",
+  "title": "n8n-io/n8n",
+  "source": "github",
+  "source_url": "https://github.com/n8n-io/n8n",
+  "summary": "n8n 是一个公平代码的工作流自动化平台，具备原生 AI 能力。它结合了可视化构建和自定义代码，支持自托管或云部署，拥有超过 400 个集成。该项目在 GitHub 上拥有近 20 万星标，涵盖 AI、API、自动化、低代码/无代码、MCP 客户端/服务器、工作流自动化等多个主题。",
+  "summary_en": "n8n is a fair-code workflow automation platform with native AI capabilities. It combines visual building with custom code, supports self-hosted or cloud deployment, and offers over 400 integrations. With nearly 200k stars on GitHub, it covers topics such as AI, APIs, automation, low-code/no-code, MCP client/server, and workflow automation.",
+  "tags": [
+    "workflow-automation",
+    "low-code",
+    "ai",
+    "self-hosted",
+    "integration"
+  ],
+  "status": "draft",
+  "score": 1,
+  "metrics": {
+    "stars": 197545
+  },
+  "fetched_at": "2026-07-23T04:03:02.703704+00:00",
+  "analyzed_at": "2026-07-23T04:03:16.169444+00:00",
+  "published_at": null
+}

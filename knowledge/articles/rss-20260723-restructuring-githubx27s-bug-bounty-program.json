@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260723-restructuring-githubx27s-bug-bounty-program",
+  "title": "Restructuring GitHub&#x27;s bug bounty program",
+  "source": "rss",
+  "source_url": "https://github.blog/security/next-chapter-restructuring-githubs-bug-bounty-program/",
+  "summary": "GitHub宣布重组其漏洞赏金计划，旨在提高安全研究人员的参与度和奖励机制。新计划将扩大范围，包括更多类型的漏洞，并增加奖励金额。此外，GitHub将改进报告流程，提供更透明的沟通和更快的响应时间。此举反映了GitHub对安全社区的承诺，并鼓励更广泛的安全研究。",
+  "summary_en": "GitHub announces a restructuring of its bug bounty program to enhance researcher engagement and rewards. The new program expands scope to include more vulnerability types and increases bounty amounts. It also improves the reporting process with transparent communication and faster response times, reflecting GitHub's commitment to the security community.",
+  "tags": [
+    "bug bounty",
+    "security",
+    "github",
+    "vulnerability disclosure"
+  ],
+  "status": "draft",
+  "score": 1,
+  "metrics": {
+    "stars": 0
+  },
+  "fetched_at": "2026-07-23T04:03:02.703704+00:00",
+  "analyzed_at": "2026-07-23T04:04:16.749180+00:00",
+  "published_at": null
+}

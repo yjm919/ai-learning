@@ -1,0 +1,26 @@
+{
+  "id": "github-20260723-transformers",
+  "title": "huggingface/transformers",
+  "source": "github",
+  "source_url": "https://github.com/huggingface/transformers",
+  "summary": "Hugging Face 的 Transformers 库是一个支持文本、视觉、音频和多模态模型的最先进机器学习模型框架，适用于推理和训练。它提供了统一的 API 来加载、微调和部署预训练模型，支持 PyTorch、TensorFlow 和 JAX 等框架，并集成了模型中心（Model Hub），便于共享和发现模型。该库涵盖了 GPT、BERT、T5、ViT、Whisper 等众多架构，是 NLP 和 AI 领域的核心工具。",
+  "summary_en": "Hugging Face's Transformers library is a state-of-the-art machine learning model framework supporting text, vision, audio, and multimodal models for both inference and training. It provides a unified API to load, fine-tune, and deploy pretrained models, supporting frameworks like PyTorch, TensorFlow, and JAX, and integrates with the Model Hub for sharing and discovering models. The library covers architectures such as GPT, BERT, T5, ViT, Whisper, and is a core tool in NLP and AI.",
+  "tags": [
+    "transformers",
+    "nlp",
+    "deep-learning",
+    "python",
+    "pytorch",
+    "model-hub",
+    "llm",
+    "multimodal"
+  ],
+  "status": "draft",
+  "score": 1,
+  "metrics": {
+    "stars": 162852
+  },
+  "fetched_at": "2026-07-23T04:03:02.703704+00:00",
+  "analyzed_at": "2026-07-23T04:03:40.616616+00:00",
+  "published_at": null
+}

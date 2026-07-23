@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260723-show-hn-cactus-hybrid-we-taught-gemma-4-to-know-when-itx27s-wrong",
+  "title": "Show HN: Cactus Hybrid: We taught Gemma 4 to know when it&#x27;s wrong",
+  "source": "rss",
+  "source_url": "https://github.com/cactus-compute/cactus-hybrid",
+  "summary": "Cactus Hybrid 是一个开源项目，旨在通过训练 Gemma 4 模型识别自身错误来提高其可靠性。该项目在 GitHub 上发布，展示了如何让模型在不确定时主动表示“不知道”，从而减少幻觉和错误输出。",
+  "summary_en": "Cactus Hybrid is an open-source project that improves the reliability of the Gemma 4 model by training it to recognize when it is wrong. It demonstrates how the model can actively indicate uncertainty, reducing hallucinations and incorrect outputs.",
+  "tags": [
+    "llm",
+    "hallucination",
+    "open-source",
+    "reliability",
+    "gemma"
+  ],
+  "status": "draft",
+  "score": 1,
+  "metrics": {
+    "stars": 0
+  },
+  "fetched_at": "2026-07-23T04:03:02.703704+00:00",
+  "analyzed_at": "2026-07-23T04:04:13.939105+00:00",
+  "published_at": null
+}

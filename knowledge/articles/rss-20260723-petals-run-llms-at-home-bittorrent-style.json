@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260723-petals-run-llms-at-home-bittorrent-style",
+  "title": "Petals: Run LLMs at home, BitTorrent-style",
+  "source": "rss",
+  "source_url": "https://petals.dev/",
+  "summary": "Petals 是一个去中心化的平台，允许用户通过 BitTorrent 风格的点对点网络在家中运行大型语言模型（LLMs）。它利用分布式计算资源，将模型层分散到多个参与者之间，从而降低硬件门槛，支持协作推理和微调，无需依赖集中式服务器。",
+  "summary_en": "Petals is a decentralized platform that enables users to run large language models (LLMs) at home using a BitTorrent-style peer-to-peer network. It distributes model layers across participants, reducing hardware requirements and enabling collaborative inference and fine-tuning without centralized servers.",
+  "tags": [
+    "decentralized",
+    "llm",
+    "peer-to-peer",
+    "distributed-computing",
+    "open-source"
+  ],
+  "status": "draft",
+  "score": 1,
+  "metrics": {
+    "stars": 0
+  },
+  "fetched_at": "2026-07-23T04:03:02.703704+00:00",
+  "analyzed_at": "2026-07-23T04:04:23.650137+00:00",
+  "published_at": null
+}

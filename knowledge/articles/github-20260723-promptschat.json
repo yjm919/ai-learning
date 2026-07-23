@@ -1,0 +1,24 @@
+{
+  "id": "github-20260723-promptschat",
+  "title": "f/prompts.chat",
+  "source": "github",
+  "source_url": "https://github.com/f/prompts.chat",
+  "summary": "prompts.chat 是一个开源项目，专注于收集、分享和发现来自社区的 ChatGPT 提示词。它支持自托管，确保组织隐私，并涵盖了多种 AI 模型如 GPT-4、Claude 和 Gemini。该项目使用 Next.js 和 TypeScript 构建，拥有超过 16 万星标，是提示工程领域的重要资源。",
+  "summary_en": "prompts.chat is an open-source project focused on sharing, discovering, and collecting ChatGPT prompts from the community. It supports self-hosting for complete privacy and covers various AI models like GPT-4, Claude, and Gemini. Built with Next.js and TypeScript, it has over 166k stars, making it a key resource in prompt engineering.",
+  "tags": [
+    "prompt-engineering",
+    "chatgpt",
+    "open-source",
+    "llm",
+    "ai",
+    "community"
+  ],
+  "status": "draft",
+  "score": 1,
+  "metrics": {
+    "stars": 166224
+  },
+  "fetched_at": "2026-07-23T04:03:02.703704+00:00",
+  "analyzed_at": "2026-07-23T04:03:32.511544+00:00",
+  "published_at": null
+}
