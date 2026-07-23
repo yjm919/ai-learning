@@ -27,16 +27,16 @@ REQUIRED_FIELDS: Dict[str, type] = {
     "fetched_at": str,
 }
 
-ID_PATTERN = re.compile(r"^(github|hackernews)-\d{8}-[\w-]+$")
+ID_PATTERN = re.compile(r"^(github|rss|hackernews)-\d{8}-[\w-]+$")
 
-VALID_STATUSES = frozenset({"draft", "review", "published", "archived"})
+VALID_STATUSES = frozenset({"draft", "review", "published", "archived", "error"})
 
 URL_PATTERN = re.compile(r"^https?://")
 
 VALID_AUDIENCES = frozenset({"beginner", "intermediate", "advanced"})
 
 SUMMARY_MIN_LEN = 20
-TAGS_MIN_COUNT = 1
+TAGS_MIN_COUNT = 2
 SCORE_MIN = 1
 SCORE_MAX = 10
 
