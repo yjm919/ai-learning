@@ -266,6 +266,18 @@ def _build_analysis_prompt(item: dict[str, Any]) -> str:
     return "\n".join(parts)
 
 
+def _normalize_score(raw_score: int) -> int:
+    """Normalize a 0–100 score to 1–10.
+
+    Args:
+        raw_score: Raw score (typically 0–100 from LLM).
+
+    Returns:
+        Normalized score clamped to [1, 10].
+    """
+    return max(1, min(10, round(raw_score / 10)))
+
+
 def analyze(
     items: list[dict[str, Any]],
     dry_run: bool = False,
@@ -290,7 +302,7 @@ def analyze(
         date_str = datetime.now(timezone.utc).strftime("%Y%m%d")
         return [
             {
-                "id": f"{date_str}-{_safe_source(a)}-{_slugify(a.get('name', 'unknown'))}",
+                "id": f"{_safe_source(a)}-{date_str}-{_slugify(a.get('name', 'unknown'))}",
                 "title": a.get("name", ""),
                 "source": _safe_source(a),
                 "source_url": a.get("url", ""),
@@ -298,7 +310,7 @@ def analyze(
                 "summary_en": f"[dry-run] mock summary for {a.get('name', '')}",
                 "tags": ["ai", "dry-run"],
                 "status": "draft",
-                "score": a.get("stars", 0) % 100 or 50,
+                "score": _normalize_score(int(a.get("stars", 0)) % 100 or 50),
                 "metrics": {"stars": a.get("stars", 0)},
                 "fetched_at": ts_now,
                 "analyzed_at": ts_now,
@@ -344,7 +356,7 @@ def analyze(
                     "summary_en": "",
                     "tags": [],
                     "status": "error",
-                    "score": 0,
+                    "score": 1,
                     "metrics": {},
                     "fetched_at": ts_now.isoformat(),
                     "analyzed_at": ts_now.isoformat(),
@@ -356,7 +368,7 @@ def analyze(
         source = _safe_source(item)
         slug = _slugify(name)
         date_str = ts_now.strftime("%Y%m%d")
-        article_id = f"{date_str}-{source}-{slug}"
+        article_id = f"{source}-{date_str}-{slug}"
 
         article: dict[str, Any] = {
             "id": article_id,
@@ -367,7 +379,7 @@ def analyze(
             "summary_en": result.get("summary_en", ""),
             "tags": result.get("tags", []),
             "status": "draft",
-            "score": result.get("score", 0),
+            "score": _normalize_score(result.get("score", 0)),
             "metrics": {"stars": item.get("stars", 0)},
             "fetched_at": ts_now.isoformat(),
             "analyzed_at": datetime.now(timezone.utc).isoformat(),
