@@ -77,12 +77,111 @@ PROVIDER_CONFIGS: dict[str, ProviderConfig] = {
     },
 }
 
-# Pricing in USD per 1M tokens (prompt, completion). Estimates only.
-PRICING_PER_1M: dict[str, tuple[float, float]] = {
-    "deepseek": (0.27, 1.10),
-    "qwen": (0.50, 2.00),
-    "openai": (0.15, 0.60),
+# Pricing in CNY per 1M tokens (prompt, completion).
+PRICING_CNY_PER_1M: dict[str, tuple[float, float]] = {
+    "deepseek": (1, 2),
+    "qwen": (4, 12),
+    "openai": (150, 600),
 }
+
+
+class CostTracker:
+    """Track LLM API token consumption and estimated cost across calls.
+
+    Records every successful chat completion's token usage and computes
+    cumulative cost per provider based on :data:`PRICING_CNY_PER_1M`.
+
+    A module-level singleton ``tracker`` is created at import time.
+    """
+
+    def __init__(self) -> None:
+        """Initialize an empty tracker."""
+        self._records: list[dict[str, Any]] = []
+        self._prompt_tokens: dict[str, int] = {}
+        self._completion_tokens: dict[str, int] = {}
+
+    def record(self, usage: Usage, provider: str) -> None:
+        """Record one API call's token consumption.
+
+        Args:
+            usage: Token usage statistics from the API response.
+            provider: Provider identifier (``deepseek``, ``qwen``, ``openai``).
+        """
+        self._records.append({
+            "provider": provider,
+            "prompt_tokens": usage.prompt_tokens,
+            "completion_tokens": usage.completion_tokens,
+            "total_tokens": usage.total_tokens,
+        })
+        self._prompt_tokens[provider] = (
+            self._prompt_tokens.get(provider, 0) + usage.prompt_tokens
+        )
+        self._completion_tokens[provider] = (
+            self._completion_tokens.get(provider, 0) + usage.completion_tokens
+        )
+        logger.debug(
+            "CostTracker recorded %s: +%d prompt +%d completion tokens",
+            provider,
+            usage.prompt_tokens,
+            usage.completion_tokens,
+        )
+
+    def estimated_cost(self, provider: str) -> float:
+        """Return the estimated cumulative cost for a provider in CNY.
+
+        Args:
+            provider: Provider identifier.
+
+        Returns:
+            Estimated cost in 元 (CNY).  Returns 0.0 for unknown providers or
+            when no calls have been recorded.
+        """
+        if provider not in PRICING_CNY_PER_1M:
+            return 0.0
+        input_price, output_price = PRICING_CNY_PER_1M[provider]
+        prompt = self._prompt_tokens.get(provider, 0) / 1_000_000
+        completion = self._completion_tokens.get(provider, 0) / 1_000_000
+        return round(prompt * input_price + completion * output_price, 6)
+
+    def report(self, provider: Optional[str] = None) -> str:
+        """Generate a cost summary report.
+
+        Args:
+            provider: If given, report for a single provider only.
+                If None, report for all recorded providers.
+
+        Returns:
+            Human-readable multi-line report string.
+        """
+        providers = [provider] if provider else list(self._prompt_tokens.keys())
+        if not providers:
+            return "CostTracker: no API calls recorded."
+
+        lines: list[str] = [
+            "═══════════════════════════════════════════",
+            "  LLM Cost Report (CNY)",
+            "═══════════════════════════════════════════",
+        ]
+        total_cost = 0.0
+        for p in sorted(providers):
+            prompt_k = self._prompt_tokens.get(p, 0) / 1000
+            completion_k = self._completion_tokens.get(p, 0) / 1000
+            cost = self.estimated_cost(p)
+            total_cost += cost
+            calls = sum(1 for r in self._records if r["provider"] == p)
+            lines.append(
+                f"  {p:12s}  {calls:3d} calls  "
+                f"{prompt_k:8.1f}K in / {completion_k:8.1f}K out  "
+                f"¥{cost:.4f}"
+            )
+        lines.append("───────────────────────────────────────────")
+        lines.append(f"  {'TOTAL':12s}  {'':3s}  {'':>8s}   {'':>8s}   ¥{total_cost:.4f}")
+        lines.append("═══════════════════════════════════════════")
+        return "\n".join(lines)
+
+
+# Module-level singleton — auto-wired into OpenAICompatibleProvider.chat()
+tracker = CostTracker()
 
 
 class ProviderName(str, Enum):
@@ -256,6 +355,7 @@ class OpenAICompatibleProvider(LLMProvider):
             completion_tokens=usage_raw.get("completion_tokens", 0),
             total_tokens=usage_raw.get("total_tokens", 0),
         )
+        tracker.record(usage, self.provider)
 
         return LLMResponse(
             content=choice["message"]["content"],
@@ -475,7 +575,7 @@ def estimate_cost(
     completion: str,
     provider: Optional[str] = None,
 ) -> float:
-    """Estimate the USD cost of an LLM call.
+    """Estimate the CNY cost of an LLM call.
 
     Uses heuristic token counting and provider-specific pricing tables.
 
@@ -486,11 +586,11 @@ def estimate_cost(
             (default ``deepseek``).
 
     Returns:
-        Estimated cost in USD.
+        Estimated cost in CNY (元).
     """
     resolved = provider or os.getenv("LLM_PROVIDER", "deepseek")
-    prompt_price, completion_price = PRICING_PER_1M.get(
-        resolved, PRICING_PER_1M["deepseek"]
+    prompt_price, completion_price = PRICING_CNY_PER_1M.get(
+        resolved, PRICING_CNY_PER_1M["deepseek"]
     )
     prompt_tokens = estimate_tokens(prompt)
     completion_tokens = estimate_tokens(completion)
@@ -498,7 +598,7 @@ def estimate_cost(
         completion_tokens / 1_000_000
     ) * completion_price
     logger.debug(
-        "Estimated cost for %s: prompt=%d tok, completion=%d tok → $%.6f",
+        "Estimated cost for %s: prompt=%d tok, completion=%d tok → ¥%.6f",
         resolved,
         prompt_tokens,
         completion_tokens,
@@ -580,7 +680,7 @@ if __name__ == "__main__":
     # 2. Cost estimation
     print("\n--- Cost estimation ---")
     cost = estimate_cost("Explain AI in 100 words.", "AI stands for Artificial Intelligence. It is...")
-    print(f"  Estimated cost: ${cost:.6f}")
+    print(f"  Estimated cost: ¥{cost:.6f}")
 
     # 3. Actual API call
     print("\n--- Quick chat (real API call) ---")
@@ -605,3 +705,6 @@ if __name__ == "__main__":
         print(f"  [WARN] Could not create provider: {exc}")
 
     print("\n=== Smoke test complete ===")
+
+    # 5. Tracker report
+    print("\n" + tracker.report())
