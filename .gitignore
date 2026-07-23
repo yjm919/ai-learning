@@ -8,3 +8,5 @@ __pycache__/
 *.pyc
 knowledge/articles/
 knowledge/raw/
+knowledge/articles/
+knowledge/raw/
