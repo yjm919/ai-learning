@@ -13,7 +13,7 @@ from typing import Any, Optional
 
 import httpx
 
-from model_client import chat_with_retry, get_provider
+from model_client import chat_with_retry, get_provider, tracker
 
 logger = logging.getLogger(__name__)
 
@@ -577,6 +577,9 @@ def run_pipeline(
     except Exception as exc:
         logger.error("Pipeline FAILED: %s", exc, exc_info=True)
         return 1
+    finally:
+        provider_name = os.getenv("LLM_PROVIDER", "deepseek")
+        logger.info("\n%s", tracker.report(provider=provider_name))
 
 
 # ---------------------------------------------------------------------------
