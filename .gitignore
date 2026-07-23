@@ -6,3 +6,5 @@ __pycache__/
 *.pyd
 __pycache__/
 *.pyc
+knowledge/articles/
+knowledge/raw/
